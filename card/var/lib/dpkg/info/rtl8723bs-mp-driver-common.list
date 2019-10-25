@@ -1,0 +1,3 @@
+/etc
+/etc/modprobe.d
+/etc/modprobe.d/rtl8723bs-mp-driver-common.conf

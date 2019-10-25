@@ -1,0 +1,94 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    configure)
+        if ! getent passwd _dnscrypt-proxy >/dev/null; then
+            adduser --quiet --system --no-create-home --force-badname \
+                    --home /run/dnscrypt-proxy _dnscrypt-proxy
+        fi
+        ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
+esac
+
+# Automatically added by dh_installdeb/12.1.1
+dpkg-maintscript-helper rm_conffile /etc/init.d/dnscrypt-proxy 1.8.1-3\~ dnscrypt-proxy -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/default/dnscrypt-proxy 1.8.1-3\~ dnscrypt-proxy -- "$@"
+dpkg-maintscript-helper mv_conffile /etc/dnscrypt-proxy/dnscrypt-proxy.conf/dnscrypt-proxy.conf /etc/dnscrypt-proxy/dnscrypt-proxy.conf 1.8.1-4\~ dnscrypt-proxy -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/dnscrypt-proxy/dnscrypt-proxy.conf 2.0.16-2\~ dnscrypt-proxy -- "$@"
+# End automatically added section
+# Automatically added by dh_installsystemd/12.1.1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# This will only remove masks created by d-s-h on package removal.
+	deb-systemd-helper unmask 'dnscrypt-proxy-resolvconf.service' >/dev/null || true
+
+	# was-enabled defaults to true, so new installations run enable.
+	if deb-systemd-helper --quiet was-enabled 'dnscrypt-proxy-resolvconf.service'; then
+		# Enables the unit on first installation, creates new
+		# symlinks on upgrades if the unit file has changed.
+		deb-systemd-helper enable 'dnscrypt-proxy-resolvconf.service' >/dev/null || true
+	else
+		# Update the statefile to add new symlinks (if any), which need to be
+		# cleaned up on purge. Also remove old symlinks.
+		deb-systemd-helper update-state 'dnscrypt-proxy-resolvconf.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/12.1.1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# This will only remove masks created by d-s-h on package removal.
+	deb-systemd-helper unmask 'dnscrypt-proxy.service' >/dev/null || true
+
+	# was-enabled defaults to true, so new installations run enable.
+	if deb-systemd-helper --quiet was-enabled 'dnscrypt-proxy.service'; then
+		# Enables the unit on first installation, creates new
+		# symlinks on upgrades if the unit file has changed.
+		deb-systemd-helper enable 'dnscrypt-proxy.service' >/dev/null || true
+	else
+		# Update the statefile to add new symlinks (if any), which need to be
+		# cleaned up on purge. Also remove old symlinks.
+		deb-systemd-helper update-state 'dnscrypt-proxy.service' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/12.1.1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# This will only remove masks created by d-s-h on package removal.
+	deb-systemd-helper unmask 'dnscrypt-proxy.socket' >/dev/null || true
+
+	# was-enabled defaults to true, so new installations run enable.
+	if deb-systemd-helper --quiet was-enabled 'dnscrypt-proxy.socket'; then
+		# Enables the unit on first installation, creates new
+		# symlinks on upgrades if the unit file has changed.
+		deb-systemd-helper enable 'dnscrypt-proxy.socket' >/dev/null || true
+	else
+		# Update the statefile to add new symlinks (if any), which need to be
+		# cleaned up on purge. Also remove old symlinks.
+		deb-systemd-helper update-state 'dnscrypt-proxy.socket' >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installsystemd/12.1.1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -d /run/systemd/system ]; then
+		systemctl --system daemon-reload >/dev/null || true
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		deb-systemd-invoke $_dh_action 'dnscrypt-proxy-resolvconf.service' 'dnscrypt-proxy.service' 'dnscrypt-proxy.socket' >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+
+exit 0

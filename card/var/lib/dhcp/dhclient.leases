@@ -1,0 +1,85 @@
+lease {
+  interface "wlan0";
+  fixed-address 192.168.29.80;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.29.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.29.1;
+  option dhcp-server-identifier 192.168.29.1;
+  option dhcp-renewal-time 1800;
+  option broadcast-address 192.168.29.255;
+  option dhcp-rebinding-time 3150;
+  option host-name "popcorn";
+  renew 4 2019/02/14 10:45:54;
+  rebind 4 2019/02/14 11:10:33;
+  expire 4 2019/02/14 11:18:03;
+}
+lease {
+  interface "wlan0";
+  fixed-address 192.168.29.80;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.29.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.29.1;
+  option dhcp-server-identifier 192.168.29.1;
+  option dhcp-renewal-time 1800;
+  option broadcast-address 192.168.29.255;
+  option dhcp-rebinding-time 3150;
+  option host-name "popcorn";
+  renew 2 2019/06/04 17:19:54;
+  rebind 2 2019/06/04 17:43:33;
+  expire 2 2019/06/04 17:51:03;
+}
+lease {
+  interface "wlan0";
+  fixed-address 192.168.29.80;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.29.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.29.1;
+  option dhcp-server-identifier 192.168.29.1;
+  option dhcp-renewal-time 1643;
+  option broadcast-address 192.168.29.255;
+  option dhcp-rebinding-time 2993;
+  option host-name "popcorn";
+  renew 2 2019/06/04 17:42:02;
+  rebind 2 2019/06/04 18:09:47;
+  expire 2 2019/06/04 18:19:54;
+}
+lease {
+  interface "wlan0";
+  fixed-address 192.168.29.80;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.29.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.29.1;
+  option dhcp-server-identifier 192.168.29.1;
+  option dhcp-renewal-time 1652;
+  option broadcast-address 192.168.29.255;
+  option dhcp-rebinding-time 3002;
+  option host-name "popcorn";
+  renew 2 2019/06/04 18:05:48;
+  rebind 2 2019/06/04 18:32:04;
+  expire 2 2019/06/04 18:42:02;
+}
+lease {
+  interface "wlan0";
+  fixed-address 192.168.29.80;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.29.1;
+  option dhcp-lease-time 3600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.29.1;
+  option dhcp-server-identifier 192.168.29.1;
+  option dhcp-renewal-time 1580;
+  option broadcast-address 192.168.29.255;
+  option dhcp-rebinding-time 2930;
+  option host-name "popcorn";
+  renew 2 2019/06/04 18:28:53;
+  rebind 2 2019/06/04 18:54:38;
+  expire 2 2019/06/04 19:05:48;
+}

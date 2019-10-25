@@ -1,0 +1,22 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = 'configure' -a -n "$2" ]; then
+	# remove keys from the trusted.gpg file as they are now shipped in fragment files in trusted.gpg.d
+	if dpkg --compare-versions "$2" 'lt' "2014.2" && which gpg > /dev/null && which apt-key > /dev/null; then
+		TRUSTEDFILE='/etc/apt/trusted.gpg'
+		eval $(apt-config shell TRUSTEDFILE Apt::GPGV::TrustedKeyring)
+		eval $(apt-config shell TRUSTEDFILE Dir::Etc::Trusted/f)
+		if [ -e "$TRUSTEDFILE" ]; then
+			for KEY in 1F41B907 65558117; do
+				apt-key --keyring "$TRUSTEDFILE" del $KEY > /dev/null 2>&1 || :
+			done
+		fi
+	fi
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/deb-multimedia-keyring-1024.gpg 2015.6.1 deb-multimedia-keyring -- "$@"
+# End automatically added section
+

@@ -1,0 +1,2 @@
+/etc/systemd/system/sockets.target.wants/dnscrypt-proxy.socket
+/etc/systemd/system/multi-user.target.wants/dnscrypt-proxy.service

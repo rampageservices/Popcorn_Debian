@@ -1,0 +1,12 @@
+Jul 18 07:38:17 popcorn rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="225" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.0000] dhcp4 (wlan0): state changed bound -> expire
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.0039] device (wlan0): DHCPv4: 480 seconds grace period started
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.0500] dhcp4 (wlan0): state changed expire -> unknown
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.1408] dhcp4 (wlan0):   address 192.168.1.12
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.1425] dhcp4 (wlan0):   plen 24 (255.255.255.0)
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.1437] dhcp4 (wlan0):   gateway 192.168.1.1
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.1451] dhcp4 (wlan0):   lease time 86400
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.1454] dhcp4 (wlan0):   nameserver '127.0.0.1'
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.1455] dhcp4 (wlan0):   nameserver '192.168.1.1'
+Jul 18 17:19:04 popcorn NetworkManager[247]: <info>  [1563495544.1456] dhcp4 (wlan0): state changed unknown -> bound
+Jul 19 00:00:29 popcorn rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="225" x-info="https://www.rsyslog.com"] rsyslogd was HUPed

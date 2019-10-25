@@ -1,0 +1,25 @@
+[connection]
+id=ChinaNet-PWnG 5
+uuid=f5e3c834-d2a6-4d2e-a066-f6a802a9ebdf
+type=wifi
+permissions=
+
+[wifi]
+mac-address=58:B3:FC:2A:E9:AC
+mac-address-blacklist=
+mode=infrastructure
+ssid=ChinaNet-PWnG
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=crrs7mlq
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto

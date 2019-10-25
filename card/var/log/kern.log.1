@@ -1,0 +1,1643 @@
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Linux version 4.4.139- (akash@akash-vr) (gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11) ) #4 SMP Wed Jun 5 12:26:00 IST 2019
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Machine model: Source Parts Kettlepop
+Feb 14 02:12:15 popcorn kernel: [    0.000000] cma: Reserved 64 MiB at 0x4c000000
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory policy: Data cache writeback
+Feb 14 02:12:15 popcorn kernel: [    0.000000] On node 0 totalpages: 65536
+Feb 14 02:12:15 popcorn kernel: [    0.000000] free_area_init_node: node 0, pgdat c1123200, node_mem_map cbd99000
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 576 pages used for memmap
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 0 pages reserved
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 65536 pages, LIFO batch:15
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PERCPU: Embedded 12 pages/cpu @cbd6d000 s18828 r8192 d22132 u49152
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: s18828 r8192 d22132 u49152 alloc=12*4096
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 64960
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Kernel command line: console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 rootwait rw panic=10
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory: 177784K/262144K available (9144K kernel code, 1141K rwdata, 4208K rodata, 1080K init, 349K bss, 18824K reserved, 65536K cma-reserved, 0K highmem)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Virtual kernel memory layout:
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vmalloc : 0xd0800000 - 0xff800000   ( 752 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .text : 0xc0208000 - 0xc0f131a0   (13357 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .init : 0xc0f14000 - 0xc1022000   (1080 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .data : 0xc1022000 - 0xc113f678   (1142 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]        .bss : 0xc1142000 - 0xc11996c0   ( 350 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=16 to nr_cpu_ids=1.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370868154 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] sched_clock: 32 bits at 200 Hz, resolution 5000000ns, wraps every 10737418237500000ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Console: colour dummy device 80x30
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Calibrating delay loop... 1002.70 BogoMIPS (lpj=2506752)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] pid_max: default: 32768 minimum: 301
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys io
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys memory
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys devices
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys freezer
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys net_cls
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys net_prio
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys pids
+Feb 14 02:12:15 popcorn kernel: [    0.025000] CPU: Testing write buffer coherency: ok
+Feb 14 02:12:15 popcorn kernel: [    0.025000] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Setting up static identity map for 0x40209000 - 0x40209098
+Feb 14 02:12:15 popcorn kernel: [    0.030000] Brought up 1 CPUs
+Feb 14 02:12:15 popcorn kernel: [    0.030000] SMP: Total of 1 processors activated (1002.70 BogoMIPS).
+Feb 14 02:12:15 popcorn kernel: [    0.030000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:15 popcorn kernel: [    0.030000] devtmpfs: initialized
+Feb 14 02:12:15 popcorn kernel: [    0.045000] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Feb 14 02:12:15 popcorn kernel: [    0.045000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 9556302231375000 ns
+Feb 14 02:12:15 popcorn kernel: [    0.045000] futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.050000] pinctrl core: initialized pinctrl subsystem
+Feb 14 02:12:15 popcorn kernel: [    0.050000] NET: Registered protocol family 16
+Feb 14 02:12:15 popcorn kernel: [    0.055000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Feb 14 02:12:15 popcorn kernel: [    0.055000] cpuidle: using governor ladder
+Feb 14 02:12:15 popcorn kernel: [    0.055000] cpuidle: using governor menu
+Feb 14 02:12:15 popcorn kernel: [    0.060000] No ATAGs?
+Feb 14 02:12:15 popcorn kernel: [    0.060000] hw-breakpoint: debug architecture 0x4 unsupported.
+Feb 14 02:12:15 popcorn kernel: [    0.065000] Serial: AMBA PL011 UART driver
+Feb 14 02:12:15 popcorn kernel: [    0.080000] vgaarb: loaded
+Feb 14 02:12:15 popcorn kernel: [    0.080000] SCSI subsystem initialized
+Feb 14 02:12:15 popcorn kernel: [    0.080000] libata version 3.00 loaded.
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new interface driver usbfs
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new interface driver hub
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new device driver usb
+Feb 14 02:12:15 popcorn kernel: [    0.080000] pps_core: LinuxPPS API ver. 1 registered
+Feb 14 02:12:15 popcorn kernel: [    0.080000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Feb 14 02:12:15 popcorn kernel: [    0.080000] PTP clock support registered
+Feb 14 02:12:15 popcorn kernel: [    0.080000] EDAC MC: Ver: 3.0.0
+Feb 14 02:12:15 popcorn kernel: [    0.085000] clocksource: Switched to clocksource timer
+Feb 14 02:12:15 popcorn kernel: [    0.095000] NET: Registered protocol family 2
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP: Hash tables configured (established 2048 bind 2048)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] NET: Registered protocol family 1
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered named UNIX socket transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered udp transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered tcp transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] PCI: CLS 0 bytes, default 64
+Feb 14 02:12:15 popcorn kernel: [    0.110000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 14 02:12:15 popcorn kernel: [    0.110000] NFS: Registering the id_resolver key type
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Key type id_resolver registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Key type id_legacy registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] ntfs: driver 2.1.32 [Flags: R/W].
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler noop registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler deadline registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler cfq registered (default)
+Feb 14 02:12:15 popcorn kernel: [    0.115000] gr8-pinctrl 1c20800.pinctrl: initialized sunXi PIO driver
+Feb 14 02:12:15 popcorn kernel: [    0.190000] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Feb 14 02:12:15 popcorn kernel: [    0.190000] console [ttyS0] disabled
+Feb 14 02:12:15 popcorn kernel: [    0.210000] 1c28400.serial: ttyS0 at MMIO 0x1c28400 (irq = 27, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.790000] console [ttyS0] enabled
+Feb 14 02:12:15 popcorn kernel: [    0.815000] 1c28800.serial: ttyS1 at MMIO 0x1c28800 (irq = 28, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.845000] 1c28c00.serial: ttyS2 at MMIO 0x1c28c00 (irq = 29, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.855000] SuperH (H)SCI(F) driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.860000] msm_serial: driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.865000] STMicroelectronics ASC driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.870000] [drm] Initialized drm 1.1.0 20060810
+Feb 14 02:12:15 popcorn kernel: [    0.885000] loop: module loaded
+Feb 14 02:12:15 popcorn kernel: [    0.895000] libphy: Fixed MDIO Bus: probed
+Feb 14 02:12:15 popcorn kernel: [    0.900000] CAN device driver interface
+Feb 14 02:12:15 popcorn kernel: [    0.900000] igb: Intel(R) Gigabit Ethernet Network Driver - version 5.3.0-k
+Feb 14 02:12:15 popcorn kernel: [    0.910000] igb: Copyright (c) 2007-2014 Intel Corporation.
+Feb 14 02:12:15 popcorn kernel: [    0.915000] pegasus: v0.9.3 (2013/04/25), Pegasus/Pegasus II USB Ethernet driver
+Feb 14 02:12:15 popcorn kernel: [    0.925000] usbcore: registered new interface driver pegasus
+Feb 14 02:12:15 popcorn kernel: [    0.930000] usbcore: registered new interface driver asix
+Feb 14 02:12:15 popcorn kernel: [    0.935000] usbcore: registered new interface driver ax88179_178a
+Feb 14 02:12:15 popcorn kernel: [    0.940000] usbcore: registered new interface driver cdc_ether
+Feb 14 02:12:15 popcorn kernel: [    0.950000] usbcore: registered new interface driver smsc75xx
+Feb 14 02:12:15 popcorn kernel: [    0.955000] usbcore: registered new interface driver smsc95xx
+Feb 14 02:12:15 popcorn kernel: [    0.960000] usbcore: registered new interface driver net1080
+Feb 14 02:12:15 popcorn kernel: [    0.965000] usbcore: registered new interface driver rndis_host
+Feb 14 02:12:15 popcorn kernel: [    0.970000] usbcore: registered new interface driver cdc_subset
+Feb 14 02:12:15 popcorn kernel: [    0.975000] usbcore: registered new interface driver zaurus
+Feb 14 02:12:15 popcorn kernel: [    0.985000] usbcore: registered new interface driver cdc_ncm
+Feb 14 02:12:15 popcorn kernel: [    0.990000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 14 02:12:15 popcorn kernel: [    0.995000] ehci-pci: EHCI PCI platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.000000] ehci-platform: EHCI generic platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.005000] ehci-omap: OMAP-EHCI Host Controller driver
+Feb 14 02:12:15 popcorn kernel: [    1.010000] ehci-orion: EHCI orion driver
+Feb 14 02:12:15 popcorn kernel: [    1.015000] ehci-st: EHCI STMicroelectronics driver
+Feb 14 02:12:15 popcorn kernel: [    1.020000] ehci-exynos: EHCI EXYNOS driver
+Feb 14 02:12:15 popcorn kernel: [    1.025000] ehci-atmel: EHCI Atmel driver
+Feb 14 02:12:15 popcorn kernel: [    1.030000] tegra-ehci: Tegra EHCI driver
+Feb 14 02:12:15 popcorn kernel: [    1.035000] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 14 02:12:15 popcorn kernel: [    1.040000] ohci-pci: OHCI PCI platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.045000] ohci-platform: OHCI generic platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.050000] ohci-omap3: OHCI OMAP3 driver
+Feb 14 02:12:15 popcorn kernel: [    1.055000] ohci-st: OHCI STMicroelectronics driver
+Feb 14 02:12:15 popcorn kernel: [    1.060000] ohci-atmel: OHCI Atmel driver
+Feb 14 02:12:15 popcorn kernel: [    1.065000] usbcore: registered new interface driver usb-storage
+Feb 14 02:12:15 popcorn kernel: [    1.070000] udc-core: couldn't find an available UDC - added [g_cdc] to list of pending drivers
+Feb 14 02:12:15 popcorn kernel: [    1.080000] mousedev: PS/2 mouse device common for all mice
+Feb 14 02:12:15 popcorn kernel: [    1.090000] i2c /dev entries driver
+Feb 14 02:12:15 popcorn kernel: [    1.095000] axp20x 0-0034: AXP20x variant AXP209 found
+Feb 14 02:12:15 popcorn kernel: [    1.105000] axp20x-gpio axp20x-gpio: AXP209 GPIO driver loaded
+Feb 14 02:12:15 popcorn kernel: [    1.120000] input: axp20x-pek as /devices/platform/soc@01c00000/1c2ac00.i2c/i2c-0/0-0034/axp20x-pek/input/input0
+Feb 14 02:12:15 popcorn kernel: [    1.135000] axp20x 0-0034: AXP20X driver loaded
+Feb 14 02:12:15 popcorn kernel: [    1.145000] Driver for 1-wire Dallas network protocol.
+Feb 14 02:12:15 popcorn kernel: [    1.150000] sunxi-wdt 1c20c90.watchdog: Watchdog enabled (timeout=16 sec, nowayout=0)
+Feb 14 02:12:15 popcorn kernel: [    1.160000] sdhci: Secure Digital Host Controller Interface driver
+Feb 14 02:12:15 popcorn kernel: [    1.165000] sdhci: Copyright(c) Pierre Ossman
+Feb 14 02:12:15 popcorn kernel: [    1.175000] Synopsys Designware Multimedia Card Interface Driver
+Feb 14 02:12:15 popcorn kernel: [    1.180000] sunxi-mmc 1c0f000.mmc: No vqmmc regulator found
+Feb 14 02:12:15 popcorn kernel: [    1.185000] sunxi-mmc 1c0f000.mmc: allocated mmc-pwrseq
+Feb 14 02:12:15 popcorn kernel: [    1.220000] sunxi-mmc 1c0f000.mmc: base:0xd0880000 irq:19
+Feb 14 02:12:15 popcorn kernel: [    1.225000] sunxi-mmc 1c11000.mmc: No vqmmc regulator found
+Feb 14 02:12:15 popcorn kernel: [    1.235000] sunxi-mmc 1c0f000.mmc: smc 0 err, cmd 8, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.250000] mmc0: new high speed SDIO card at address 0001
+Feb 14 02:12:15 popcorn kernel: [    1.260000] sunxi-mmc 1c11000.mmc: base:0xd0882000 irq:20
+Feb 14 02:12:15 popcorn kernel: [    1.265000] sdhci-pltfm: SDHCI platform and OF driver helper
+Feb 14 02:12:15 popcorn kernel: [    1.270000] ledtrig-cpu: registered to indicate activity on CPUs
+Feb 14 02:12:15 popcorn kernel: [    1.280000] hidraw: raw HID events driver (C) Jiri Kosina
+Feb 14 02:12:15 popcorn kernel: [    1.285000] usbcore: registered new interface driver usbhid
+Feb 14 02:12:15 popcorn kernel: [    1.290000] usbhid: USB HID core driver
+Feb 14 02:12:15 popcorn kernel: [    1.295000] ip_tables: (C) 2000-2006 Netfilter Core Team
+Feb 14 02:12:15 popcorn kernel: [    1.300000] NET: Registered protocol family 10
+Feb 14 02:12:15 popcorn kernel: [    1.305000] sit: IPv6 over IPv4 tunneling driver
+Feb 14 02:12:15 popcorn kernel: [    1.315000] NET: Registered protocol family 17
+Feb 14 02:12:15 popcorn kernel: [    1.315000] can: controller area network core (rev 20120528 abi 9)
+Feb 14 02:12:15 popcorn kernel: [    1.325000] NET: Registered protocol family 29
+Feb 14 02:12:15 popcorn kernel: [    1.330000] can: raw protocol (rev 20120528)
+Feb 14 02:12:15 popcorn kernel: [    1.335000] can: broadcast manager protocol (rev 20120528 t)
+Feb 14 02:12:15 popcorn kernel: [    1.340000] can: netlink gateway (rev 20130117) max_hops=1
+Feb 14 02:12:15 popcorn kernel: [    1.345000] Key type dns_resolver registered
+Feb 14 02:12:15 popcorn kernel: [    1.350000] cpu: dev_pm_opp_of_cpumask_add_table: couldn't find opp table for cpu:0, -19
+Feb 14 02:12:15 popcorn kernel: [    1.360000] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+Feb 14 02:12:15 popcorn kernel: [    1.365000] ThumbEE CPU extension supported.
+Feb 14 02:12:15 popcorn kernel: [    1.370000] Registering SWP/SWPB emulation handler
+Feb 14 02:12:15 popcorn kernel: [    1.380000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 8, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.390000] hctosys: unable to open rtc device (rtc0)
+Feb 14 02:12:15 popcorn kernel: [    1.395000] of_cfs_init
+Feb 14 02:12:15 popcorn kernel: [    1.400000] of_cfs_init: OK
+Feb 14 02:12:15 popcorn kernel: [    1.410000] vcc3v0: disabling
+Feb 14 02:12:15 popcorn kernel: [    1.410000] vcc5v0: disabling
+Feb 14 02:12:15 popcorn kernel: [    1.415000] Waiting for root device /dev/mmcblk0p2...
+Feb 14 02:12:15 popcorn kernel: [    1.420000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.425000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.435000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.440000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.495000] mmc1: MAN_BKOPS_EN bit is not set
+Feb 14 02:12:15 popcorn kernel: [    1.500000] mmc1: new high speed MMC card at address 0001
+Feb 14 02:12:15 popcorn kernel: [    1.510000] mmcblk0: mmc1:0001 NCard  7.22 GiB 
+Feb 14 02:12:15 popcorn kernel: [    1.510000] mmcblk0boot0: mmc1:0001 NCard  partition 1 4.00 MiB
+Feb 14 02:12:15 popcorn kernel: [    1.520000] mmcblk0boot1: mmc1:0001 NCard  partition 2 4.00 MiB
+Feb 14 02:12:15 popcorn kernel: [    1.525000]  mmcblk0: p1 p2
+Feb 14 02:12:15 popcorn kernel: [    2.365000] EXT4-fs (mmcblk0p2): recovery complete
+Feb 14 02:12:15 popcorn kernel: [    2.370000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Feb 14 02:12:15 popcorn kernel: [    2.380000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+Feb 14 02:12:15 popcorn kernel: [    2.385000] devtmpfs: mounted
+Feb 14 02:12:15 popcorn kernel: [    2.390000] Freeing unused kernel memory: 1080K
+Feb 14 02:12:15 popcorn kernel: [    4.140000] random: systemd: uninitialized urandom read (16 bytes read, 60 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.160000] random: systemd: uninitialized urandom read (16 bytes read, 60 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.195000] random: systemd: uninitialized urandom read (16 bytes read, 60 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.230000] random: systemd: uninitialized urandom read (16 bytes read, 60 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.255000] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.280000] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.305000] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.330000] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.375000] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    4.400000] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [   13.135000] sun4i-codec 1c22c00.codec: Codec <-> 1c22c00.codec mapping ok
+Feb 14 02:12:15 popcorn kernel: [   13.285000] ehci-platform 1c14000.usb: EHCI Host Controller
+Feb 14 02:12:15 popcorn kernel: [   13.285000] ehci-platform 1c14000.usb: new USB bus registered, assigned bus number 1
+Feb 14 02:12:15 popcorn kernel: [   13.285000] ehci-platform 1c14000.usb: irq 22, io mem 0x01c14000
+Feb 14 02:12:15 popcorn kernel: [   13.295000] ehci-platform 1c14000.usb: USB 2.0 started, EHCI 1.00
+Feb 14 02:12:15 popcorn kernel: [   13.300000] hub 1-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   13.300000] hub 1-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   13.300000] ohci-platform 1c14400.usb: Generic Platform OHCI controller
+Feb 14 02:12:15 popcorn kernel: [   13.300000] ohci-platform 1c14400.usb: new USB bus registered, assigned bus number 2
+Feb 14 02:12:15 popcorn kernel: [   13.300000] ohci-platform 1c14400.usb: irq 23, io mem 0x01c14400
+Feb 14 02:12:15 popcorn kernel: [   13.375000] hub 2-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   13.380000] hub 2-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   13.380000] usb_phy_generic.0.auto supply vcc not found, using dummy regulator
+Feb 14 02:12:15 popcorn kernel: [   13.380000] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+Feb 14 02:12:15 popcorn kernel: [   13.380000] musb-hdrc: MHDRC RTL version 0.0 
+Feb 14 02:12:15 popcorn kernel: [   13.380000] musb-hdrc: 11/11 max ep, 5184/8192 memory
+Feb 14 02:12:15 popcorn kernel: [   13.380000] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+Feb 14 02:12:15 popcorn kernel: [   13.380000] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 3
+Feb 14 02:12:15 popcorn kernel: [   13.380000] hub 3-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   13.380000] hub 3-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   13.385000] using random self ethernet address
+Feb 14 02:12:15 popcorn kernel: [   13.385000] using random host ethernet address
+Feb 14 02:12:15 popcorn kernel: [   13.435000] usb0: HOST MAC b6:ec:63:39:15:eb
+Feb 14 02:12:15 popcorn kernel: [   13.435000] usb0: MAC 72:ba:13:33:ee:86
+Feb 14 02:12:15 popcorn kernel: [   13.435000] g_cdc gadget: CDC Composite Gadget, version: King Kamehameha Day 2008
+Feb 14 02:12:15 popcorn kernel: [   13.435000] g_cdc gadget: g_cdc ready
+Feb 14 02:12:15 popcorn kernel: [   18.550000] random: nonblocking pool is initialized
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Linux version 4.4.139- (akash@akash-vr) (gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11) ) #4 SMP Wed Jun 5 12:26:00 IST 2019
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Machine model: Source Parts Kettlepop
+Feb 14 02:12:15 popcorn kernel: [    0.000000] cma: Reserved 64 MiB at 0x4c000000
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory policy: Data cache writeback
+Feb 14 02:12:15 popcorn kernel: [    0.000000] On node 0 totalpages: 65536
+Feb 14 02:12:15 popcorn kernel: [    0.000000] free_area_init_node: node 0, pgdat c1123200, node_mem_map cbd99000
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 576 pages used for memmap
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 0 pages reserved
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 65536 pages, LIFO batch:15
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PERCPU: Embedded 12 pages/cpu @cbd6d000 s18828 r8192 d22132 u49152
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: s18828 r8192 d22132 u49152 alloc=12*4096
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 64960
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Kernel command line: console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 rootwait rw panic=10
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory: 177784K/262144K available (9144K kernel code, 1141K rwdata, 4208K rodata, 1080K init, 349K bss, 18824K reserved, 65536K cma-reserved, 0K highmem)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Virtual kernel memory layout:
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vmalloc : 0xd0800000 - 0xff800000   ( 752 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .text : 0xc0208000 - 0xc0f131a0   (13357 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .init : 0xc0f14000 - 0xc1022000   (1080 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .data : 0xc1022000 - 0xc113f678   (1142 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]        .bss : 0xc1142000 - 0xc11996c0   ( 350 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=16 to nr_cpu_ids=1.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370868154 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] sched_clock: 32 bits at 200 Hz, resolution 5000000ns, wraps every 10737418237500000ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Console: colour dummy device 80x30
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Calibrating delay loop... 1002.70 BogoMIPS (lpj=2506752)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] pid_max: default: 32768 minimum: 301
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys io
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys memory
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys devices
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys freezer
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys net_cls
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys net_prio
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys pids
+Feb 14 02:12:15 popcorn kernel: [    0.025000] CPU: Testing write buffer coherency: ok
+Feb 14 02:12:15 popcorn kernel: [    0.025000] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Setting up static identity map for 0x40209000 - 0x40209098
+Feb 14 02:12:15 popcorn kernel: [    0.030000] Brought up 1 CPUs
+Feb 14 02:12:15 popcorn kernel: [    0.030000] SMP: Total of 1 processors activated (1002.70 BogoMIPS).
+Feb 14 02:12:15 popcorn kernel: [    0.030000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:15 popcorn kernel: [    0.030000] devtmpfs: initialized
+Feb 14 02:12:15 popcorn kernel: [    0.045000] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Feb 14 02:12:15 popcorn kernel: [    0.045000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 9556302231375000 ns
+Feb 14 02:12:15 popcorn kernel: [    0.045000] futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.050000] pinctrl core: initialized pinctrl subsystem
+Feb 14 02:12:15 popcorn kernel: [    0.050000] NET: Registered protocol family 16
+Feb 14 02:12:15 popcorn kernel: [    0.055000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Feb 14 02:12:15 popcorn kernel: [    0.055000] cpuidle: using governor ladder
+Feb 14 02:12:15 popcorn kernel: [    0.055000] cpuidle: using governor menu
+Feb 14 02:12:15 popcorn kernel: [    0.060000] No ATAGs?
+Feb 14 02:12:15 popcorn kernel: [    0.060000] hw-breakpoint: debug architecture 0x4 unsupported.
+Feb 14 02:12:15 popcorn kernel: [    0.065000] Serial: AMBA PL011 UART driver
+Feb 14 02:12:15 popcorn kernel: [    0.080000] vgaarb: loaded
+Feb 14 02:12:15 popcorn kernel: [    0.080000] SCSI subsystem initialized
+Feb 14 02:12:15 popcorn kernel: [    0.080000] libata version 3.00 loaded.
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new interface driver usbfs
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new interface driver hub
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new device driver usb
+Feb 14 02:12:15 popcorn kernel: [    0.080000] pps_core: LinuxPPS API ver. 1 registered
+Feb 14 02:12:15 popcorn kernel: [    0.080000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Feb 14 02:12:15 popcorn kernel: [    0.080000] PTP clock support registered
+Feb 14 02:12:15 popcorn kernel: [    0.080000] EDAC MC: Ver: 3.0.0
+Feb 14 02:12:15 popcorn kernel: [    0.085000] clocksource: Switched to clocksource timer
+Feb 14 02:12:15 popcorn kernel: [    0.095000] NET: Registered protocol family 2
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP: Hash tables configured (established 2048 bind 2048)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] NET: Registered protocol family 1
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered named UNIX socket transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered udp transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered tcp transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] PCI: CLS 0 bytes, default 64
+Feb 14 02:12:15 popcorn kernel: [    0.110000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 14 02:12:15 popcorn kernel: [    0.110000] NFS: Registering the id_resolver key type
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Key type id_resolver registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Key type id_legacy registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] ntfs: driver 2.1.32 [Flags: R/W].
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler noop registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler deadline registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler cfq registered (default)
+Feb 14 02:12:15 popcorn kernel: [    0.115000] gr8-pinctrl 1c20800.pinctrl: initialized sunXi PIO driver
+Feb 14 02:12:15 popcorn kernel: [    0.190000] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Feb 14 02:12:15 popcorn kernel: [    0.190000] console [ttyS0] disabled
+Feb 14 02:12:15 popcorn kernel: [    0.210000] 1c28400.serial: ttyS0 at MMIO 0x1c28400 (irq = 27, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.790000] console [ttyS0] enabled
+Feb 14 02:12:15 popcorn kernel: [    0.815000] 1c28800.serial: ttyS1 at MMIO 0x1c28800 (irq = 28, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.845000] 1c28c00.serial: ttyS2 at MMIO 0x1c28c00 (irq = 29, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.855000] SuperH (H)SCI(F) driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.860000] msm_serial: driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.865000] STMicroelectronics ASC driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.870000] [drm] Initialized drm 1.1.0 20060810
+Feb 14 02:12:15 popcorn kernel: [    0.885000] loop: module loaded
+Feb 14 02:12:15 popcorn kernel: [    0.895000] libphy: Fixed MDIO Bus: probed
+Feb 14 02:12:15 popcorn kernel: [    0.900000] CAN device driver interface
+Feb 14 02:12:15 popcorn kernel: [    0.900000] igb: Intel(R) Gigabit Ethernet Network Driver - version 5.3.0-k
+Feb 14 02:12:15 popcorn kernel: [    0.910000] igb: Copyright (c) 2007-2014 Intel Corporation.
+Feb 14 02:12:15 popcorn kernel: [    0.915000] pegasus: v0.9.3 (2013/04/25), Pegasus/Pegasus II USB Ethernet driver
+Feb 14 02:12:15 popcorn kernel: [    0.925000] usbcore: registered new interface driver pegasus
+Feb 14 02:12:15 popcorn kernel: [    0.930000] usbcore: registered new interface driver asix
+Feb 14 02:12:15 popcorn kernel: [    0.935000] usbcore: registered new interface driver ax88179_178a
+Feb 14 02:12:15 popcorn kernel: [    0.940000] usbcore: registered new interface driver cdc_ether
+Feb 14 02:12:15 popcorn kernel: [    0.950000] usbcore: registered new interface driver smsc75xx
+Feb 14 02:12:15 popcorn kernel: [    0.955000] usbcore: registered new interface driver smsc95xx
+Feb 14 02:12:15 popcorn kernel: [    0.960000] usbcore: registered new interface driver net1080
+Feb 14 02:12:15 popcorn kernel: [    0.965000] usbcore: registered new interface driver rndis_host
+Feb 14 02:12:15 popcorn kernel: [    0.970000] usbcore: registered new interface driver cdc_subset
+Feb 14 02:12:15 popcorn kernel: [    0.975000] usbcore: registered new interface driver zaurus
+Feb 14 02:12:15 popcorn kernel: [    0.985000] usbcore: registered new interface driver cdc_ncm
+Feb 14 02:12:15 popcorn kernel: [    0.990000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 14 02:12:15 popcorn kernel: [    0.995000] ehci-pci: EHCI PCI platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.000000] ehci-platform: EHCI generic platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.005000] ehci-omap: OMAP-EHCI Host Controller driver
+Feb 14 02:12:15 popcorn kernel: [    1.010000] ehci-orion: EHCI orion driver
+Feb 14 02:12:15 popcorn kernel: [    1.015000] ehci-st: EHCI STMicroelectronics driver
+Feb 14 02:12:15 popcorn kernel: [    1.020000] ehci-exynos: EHCI EXYNOS driver
+Feb 14 02:12:15 popcorn kernel: [    1.025000] ehci-atmel: EHCI Atmel driver
+Feb 14 02:12:15 popcorn kernel: [    1.030000] tegra-ehci: Tegra EHCI driver
+Feb 14 02:12:15 popcorn kernel: [    1.035000] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 14 02:12:15 popcorn kernel: [    1.040000] ohci-pci: OHCI PCI platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.045000] ohci-platform: OHCI generic platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.050000] ohci-omap3: OHCI OMAP3 driver
+Feb 14 02:12:15 popcorn kernel: [    1.055000] ohci-st: OHCI STMicroelectronics driver
+Feb 14 02:12:15 popcorn kernel: [    1.060000] ohci-atmel: OHCI Atmel driver
+Feb 14 02:12:15 popcorn kernel: [    1.065000] usbcore: registered new interface driver usb-storage
+Feb 14 02:12:15 popcorn kernel: [    1.070000] udc-core: couldn't find an available UDC - added [g_cdc] to list of pending drivers
+Feb 14 02:12:15 popcorn kernel: [    1.080000] mousedev: PS/2 mouse device common for all mice
+Feb 14 02:12:15 popcorn kernel: [    1.090000] i2c /dev entries driver
+Feb 14 02:12:15 popcorn kernel: [    1.095000] axp20x 0-0034: AXP20x variant AXP209 found
+Feb 14 02:12:15 popcorn kernel: [    1.105000] axp20x-gpio axp20x-gpio: AXP209 GPIO driver loaded
+Feb 14 02:12:15 popcorn kernel: [    1.120000] input: axp20x-pek as /devices/platform/soc@01c00000/1c2ac00.i2c/i2c-0/0-0034/axp20x-pek/input/input0
+Feb 14 02:12:15 popcorn kernel: [    1.135000] axp20x 0-0034: AXP20X driver loaded
+Feb 14 02:12:15 popcorn kernel: [    1.145000] Driver for 1-wire Dallas network protocol.
+Feb 14 02:12:15 popcorn kernel: [    1.150000] sunxi-wdt 1c20c90.watchdog: Watchdog enabled (timeout=16 sec, nowayout=0)
+Feb 14 02:12:15 popcorn kernel: [    1.160000] sdhci: Secure Digital Host Controller Interface driver
+Feb 14 02:12:15 popcorn kernel: [    1.165000] sdhci: Copyright(c) Pierre Ossman
+Feb 14 02:12:15 popcorn kernel: [    1.175000] Synopsys Designware Multimedia Card Interface Driver
+Feb 14 02:12:15 popcorn kernel: [    1.180000] sunxi-mmc 1c0f000.mmc: No vqmmc regulator found
+Feb 14 02:12:15 popcorn kernel: [    1.185000] sunxi-mmc 1c0f000.mmc: allocated mmc-pwrseq
+Feb 14 02:12:15 popcorn kernel: [    1.220000] sunxi-mmc 1c0f000.mmc: base:0xd0880000 irq:19
+Feb 14 02:12:15 popcorn kernel: [    1.225000] sunxi-mmc 1c11000.mmc: No vqmmc regulator found
+Feb 14 02:12:15 popcorn kernel: [    1.235000] sunxi-mmc 1c0f000.mmc: smc 0 err, cmd 8, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.250000] mmc0: new high speed SDIO card at address 0001
+Feb 14 02:12:15 popcorn kernel: [    1.260000] sunxi-mmc 1c11000.mmc: base:0xd0882000 irq:20
+Feb 14 02:12:15 popcorn kernel: [    1.265000] sdhci-pltfm: SDHCI platform and OF driver helper
+Feb 14 02:12:15 popcorn kernel: [    1.270000] ledtrig-cpu: registered to indicate activity on CPUs
+Feb 14 02:12:15 popcorn kernel: [    1.280000] hidraw: raw HID events driver (C) Jiri Kosina
+Feb 14 02:12:15 popcorn kernel: [    1.285000] usbcore: registered new interface driver usbhid
+Feb 14 02:12:15 popcorn kernel: [    1.290000] usbhid: USB HID core driver
+Feb 14 02:12:15 popcorn kernel: [    1.295000] ip_tables: (C) 2000-2006 Netfilter Core Team
+Feb 14 02:12:15 popcorn kernel: [    1.300000] NET: Registered protocol family 10
+Feb 14 02:12:15 popcorn kernel: [    1.305000] sit: IPv6 over IPv4 tunneling driver
+Feb 14 02:12:15 popcorn kernel: [    1.315000] NET: Registered protocol family 17
+Feb 14 02:12:15 popcorn kernel: [    1.315000] can: controller area network core (rev 20120528 abi 9)
+Feb 14 02:12:15 popcorn kernel: [    1.325000] NET: Registered protocol family 29
+Feb 14 02:12:15 popcorn kernel: [    1.330000] can: raw protocol (rev 20120528)
+Feb 14 02:12:15 popcorn kernel: [    1.335000] can: broadcast manager protocol (rev 20120528 t)
+Feb 14 02:12:15 popcorn kernel: [    1.340000] can: netlink gateway (rev 20130117) max_hops=1
+Feb 14 02:12:15 popcorn kernel: [    1.345000] Key type dns_resolver registered
+Feb 14 02:12:15 popcorn kernel: [    1.350000] cpu: dev_pm_opp_of_cpumask_add_table: couldn't find opp table for cpu:0, -19
+Feb 14 02:12:15 popcorn kernel: [    1.360000] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+Feb 14 02:12:15 popcorn kernel: [    1.365000] ThumbEE CPU extension supported.
+Feb 14 02:12:15 popcorn kernel: [    1.370000] Registering SWP/SWPB emulation handler
+Feb 14 02:12:15 popcorn kernel: [    1.380000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 8, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.390000] hctosys: unable to open rtc device (rtc0)
+Feb 14 02:12:15 popcorn kernel: [    1.395000] of_cfs_init
+Feb 14 02:12:15 popcorn kernel: [    1.400000] of_cfs_init: OK
+Feb 14 02:12:15 popcorn kernel: [    1.410000] vcc3v0: disabling
+Feb 14 02:12:15 popcorn kernel: [    1.410000] vcc5v0: disabling
+Feb 14 02:12:15 popcorn kernel: [    1.415000] Waiting for root device /dev/mmcblk0p2...
+Feb 14 02:12:15 popcorn kernel: [    1.420000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.425000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.435000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.440000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.495000] mmc1: MAN_BKOPS_EN bit is not set
+Feb 14 02:12:15 popcorn kernel: [    1.500000] mmc1: new high speed MMC card at address 0001
+Feb 14 02:12:15 popcorn kernel: [    1.510000] mmcblk0: mmc1:0001 NCard  7.22 GiB 
+Feb 14 02:12:15 popcorn kernel: [    1.515000] mmcblk0boot0: mmc1:0001 NCard  partition 1 4.00 MiB
+Feb 14 02:12:15 popcorn kernel: [    1.520000] mmcblk0boot1: mmc1:0001 NCard  partition 2 4.00 MiB
+Feb 14 02:12:15 popcorn kernel: [    1.525000]  mmcblk0: p1 p2
+Feb 14 02:12:15 popcorn kernel: [    1.750000] EXT4-fs (mmcblk0p2): recovery complete
+Feb 14 02:12:15 popcorn kernel: [    1.755000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Feb 14 02:12:15 popcorn kernel: [    1.760000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+Feb 14 02:12:15 popcorn kernel: [    1.770000] devtmpfs: mounted
+Feb 14 02:12:15 popcorn kernel: [    1.775000] Freeing unused kernel memory: 1080K
+Feb 14 02:12:15 popcorn kernel: [    3.285000] random: systemd: uninitialized urandom read (16 bytes read, 67 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.310000] random: systemd: uninitialized urandom read (16 bytes read, 67 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.345000] random: systemd: uninitialized urandom read (16 bytes read, 67 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.370000] random: systemd: uninitialized urandom read (16 bytes read, 67 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.395000] random: systemd: uninitialized urandom read (16 bytes read, 68 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.420000] random: systemd: uninitialized urandom read (16 bytes read, 68 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.445000] random: systemd: uninitialized urandom read (16 bytes read, 68 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.490000] random: systemd: uninitialized urandom read (16 bytes read, 68 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.515000] random: systemd: uninitialized urandom read (16 bytes read, 68 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.595000] random: systemd: uninitialized urandom read (16 bytes read, 68 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [   12.195000] ehci-platform 1c14000.usb: EHCI Host Controller
+Feb 14 02:12:15 popcorn kernel: [   12.195000] ehci-platform 1c14000.usb: new USB bus registered, assigned bus number 1
+Feb 14 02:12:15 popcorn kernel: [   12.195000] ehci-platform 1c14000.usb: irq 22, io mem 0x01c14000
+Feb 14 02:12:15 popcorn kernel: [   12.205000] ehci-platform 1c14000.usb: USB 2.0 started, EHCI 1.00
+Feb 14 02:12:15 popcorn kernel: [   12.205000] hub 1-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   12.205000] hub 1-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   12.205000] ohci-platform 1c14400.usb: Generic Platform OHCI controller
+Feb 14 02:12:15 popcorn kernel: [   12.205000] ohci-platform 1c14400.usb: new USB bus registered, assigned bus number 2
+Feb 14 02:12:15 popcorn kernel: [   12.205000] ohci-platform 1c14400.usb: irq 23, io mem 0x01c14400
+Feb 14 02:12:15 popcorn kernel: [   12.285000] hub 2-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   12.295000] hub 2-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   12.295000] sun4i-codec 1c22c00.codec: Codec <-> 1c22c00.codec mapping ok
+Feb 14 02:12:15 popcorn kernel: [   12.300000] usb_phy_generic.0.auto supply vcc not found, using dummy regulator
+Feb 14 02:12:15 popcorn kernel: [   12.300000] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+Feb 14 02:12:15 popcorn kernel: [   12.300000] musb-hdrc: MHDRC RTL version 0.0 
+Feb 14 02:12:15 popcorn kernel: [   12.300000] musb-hdrc: 11/11 max ep, 5184/8192 memory
+Feb 14 02:12:15 popcorn kernel: [   12.300000] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+Feb 14 02:12:15 popcorn kernel: [   12.300000] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 3
+Feb 14 02:12:15 popcorn kernel: [   12.305000] hub 3-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   12.305000] hub 3-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   12.305000] using random self ethernet address
+Feb 14 02:12:15 popcorn kernel: [   12.305000] using random host ethernet address
+Feb 14 02:12:15 popcorn kernel: [   12.325000] usb0: HOST MAC 32:da:37:41:7f:c5
+Feb 14 02:12:15 popcorn kernel: [   12.325000] usb0: MAC a6:62:c4:58:59:53
+Feb 14 02:12:15 popcorn kernel: [   12.325000] g_cdc gadget: CDC Composite Gadget, version: King Kamehameha Day 2008
+Feb 14 02:12:15 popcorn kernel: [   12.325000] g_cdc gadget: g_cdc ready
+Feb 14 02:12:15 popcorn kernel: [   15.260000] random: nonblocking pool is initialized
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Linux version 4.4.139- (akash@akash-vr) (gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11) ) #4 SMP Wed Jun 5 12:26:00 IST 2019
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Machine model: Source Parts Kettlepop
+Feb 14 02:12:15 popcorn kernel: [    0.000000] cma: Reserved 64 MiB at 0x4c000000
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory policy: Data cache writeback
+Feb 14 02:12:15 popcorn kernel: [    0.000000] On node 0 totalpages: 65536
+Feb 14 02:12:15 popcorn kernel: [    0.000000] free_area_init_node: node 0, pgdat c1123200, node_mem_map cbd99000
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 576 pages used for memmap
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 0 pages reserved
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 65536 pages, LIFO batch:15
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PERCPU: Embedded 12 pages/cpu @cbd6d000 s18828 r8192 d22132 u49152
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: s18828 r8192 d22132 u49152 alloc=12*4096
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 64960
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Kernel command line: console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 rootwait rw panic=10
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory: 177784K/262144K available (9144K kernel code, 1141K rwdata, 4208K rodata, 1080K init, 349K bss, 18824K reserved, 65536K cma-reserved, 0K highmem)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Virtual kernel memory layout:
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vmalloc : 0xd0800000 - 0xff800000   ( 752 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .text : 0xc0208000 - 0xc0f131a0   (13357 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .init : 0xc0f14000 - 0xc1022000   (1080 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .data : 0xc1022000 - 0xc113f678   (1142 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]        .bss : 0xc1142000 - 0xc11996c0   ( 350 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=16 to nr_cpu_ids=1.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370868154 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] sched_clock: 32 bits at 200 Hz, resolution 5000000ns, wraps every 10737418237500000ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Console: colour dummy device 80x30
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Calibrating delay loop... 1002.70 BogoMIPS (lpj=2506752)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] pid_max: default: 32768 minimum: 301
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys io
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys memory
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys devices
+Feb 14 02:12:16 popcorn kernel: [    0.025000] Initializing cgroup subsys freezer
+Feb 14 02:12:16 popcorn kernel: [    0.025000] Initializing cgroup subsys net_cls
+Feb 14 02:12:16 popcorn kernel: [    0.025000] Initializing cgroup subsys net_prio
+Feb 14 02:12:16 popcorn kernel: [    0.025000] Initializing cgroup subsys pids
+Feb 14 02:12:16 popcorn kernel: [    0.025000] CPU: Testing write buffer coherency: ok
+Feb 14 02:12:16 popcorn kernel: [    0.025000] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+Feb 14 02:12:16 popcorn kernel: [    0.025000] Setting up static identity map for 0x40209000 - 0x40209098
+Feb 14 02:12:16 popcorn kernel: [    0.030000] Brought up 1 CPUs
+Feb 14 02:12:16 popcorn kernel: [    0.030000] SMP: Total of 1 processors activated (1002.70 BogoMIPS).
+Feb 14 02:12:16 popcorn kernel: [    0.030000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:16 popcorn kernel: [    0.030000] devtmpfs: initialized
+Feb 14 02:12:16 popcorn kernel: [    0.045000] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Feb 14 02:12:16 popcorn kernel: [    0.045000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 9556302231375000 ns
+Feb 14 02:12:16 popcorn kernel: [    0.045000] futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 14 02:12:16 popcorn kernel: [    0.050000] pinctrl core: initialized pinctrl subsystem
+Feb 14 02:12:16 popcorn kernel: [    0.050000] NET: Registered protocol family 16
+Feb 14 02:12:16 popcorn kernel: [    0.055000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Feb 14 02:12:16 popcorn kernel: [    0.055000] cpuidle: using governor ladder
+Feb 14 02:12:16 popcorn kernel: [    0.055000] cpuidle: using governor menu
+Feb 14 02:12:16 popcorn kernel: [    0.060000] No ATAGs?
+Feb 14 02:12:16 popcorn kernel: [    0.060000] hw-breakpoint: debug architecture 0x4 unsupported.
+Feb 14 02:12:16 popcorn kernel: [    0.065000] Serial: AMBA PL011 UART driver
+Feb 14 02:12:16 popcorn kernel: [    0.080000] vgaarb: loaded
+Feb 14 02:12:16 popcorn kernel: [    0.080000] SCSI subsystem initialized
+Feb 14 02:12:16 popcorn kernel: [    0.080000] libata version 3.00 loaded.
+Feb 14 02:12:16 popcorn kernel: [    0.080000] usbcore: registered new interface driver usbfs
+Feb 14 02:12:16 popcorn kernel: [    0.080000] usbcore: registered new interface driver hub
+Feb 14 02:12:16 popcorn kernel: [    0.080000] usbcore: registered new device driver usb
+Feb 14 02:12:16 popcorn kernel: [    0.080000] pps_core: LinuxPPS API ver. 1 registered
+Feb 14 02:12:16 popcorn kernel: [    0.080000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Feb 14 02:12:16 popcorn kernel: [    0.080000] PTP clock support registered
+Feb 14 02:12:16 popcorn kernel: [    0.080000] EDAC MC: Ver: 3.0.0
+Feb 14 02:12:16 popcorn kernel: [    0.085000] clocksource: Switched to clocksource timer
+Feb 14 02:12:16 popcorn kernel: [    0.095000] NET: Registered protocol family 2
+Feb 14 02:12:16 popcorn kernel: [    0.095000] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Feb 14 02:12:16 popcorn kernel: [    0.095000] TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 14 02:12:16 popcorn kernel: [    0.095000] TCP: Hash tables configured (established 2048 bind 2048)
+Feb 14 02:12:16 popcorn kernel: [    0.095000] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:16 popcorn kernel: [    0.095000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:16 popcorn kernel: [    0.095000] NET: Registered protocol family 1
+Feb 14 02:12:16 popcorn kernel: [    0.095000] RPC: Registered named UNIX socket transport module.
+Feb 14 02:12:16 popcorn kernel: [    0.095000] RPC: Registered udp transport module.
+Feb 14 02:12:16 popcorn kernel: [    0.095000] RPC: Registered tcp transport module.
+Feb 14 02:12:16 popcorn kernel: [    0.095000] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 14 02:12:16 popcorn kernel: [    0.095000] PCI: CLS 0 bytes, default 64
+Feb 14 02:12:16 popcorn kernel: [    0.110000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 14 02:12:16 popcorn kernel: [    0.110000] NFS: Registering the id_resolver key type
+Feb 14 02:12:16 popcorn kernel: [    0.110000] Key type id_resolver registered
+Feb 14 02:12:16 popcorn kernel: [    0.110000] Key type id_legacy registered
+Feb 14 02:12:16 popcorn kernel: [    0.110000] ntfs: driver 2.1.32 [Flags: R/W].
+Feb 14 02:12:16 popcorn kernel: [    0.110000] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 14 02:12:16 popcorn kernel: [    0.110000] io scheduler noop registered
+Feb 14 02:12:16 popcorn kernel: [    0.110000] io scheduler deadline registered
+Feb 14 02:12:16 popcorn kernel: [    0.110000] io scheduler cfq registered (default)
+Feb 14 02:12:16 popcorn kernel: [    0.115000] gr8-pinctrl 1c20800.pinctrl: initialized sunXi PIO driver
+Feb 14 02:12:16 popcorn kernel: [    0.190000] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Feb 14 02:12:16 popcorn kernel: [    0.190000] console [ttyS0] disabled
+Feb 14 02:12:16 popcorn kernel: [    0.210000] 1c28400.serial: ttyS0 at MMIO 0x1c28400 (irq = 27, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:16 popcorn kernel: [    0.790000] console [ttyS0] enabled
+Feb 14 02:12:16 popcorn kernel: [    0.815000] 1c28800.serial: ttyS1 at MMIO 0x1c28800 (irq = 28, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:16 popcorn kernel: [    0.845000] 1c28c00.serial: ttyS2 at MMIO 0x1c28c00 (irq = 29, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:16 popcorn kernel: [    0.855000] SuperH (H)SCI(F) driver initialized
+Feb 14 02:12:16 popcorn kernel: [    0.860000] msm_serial: driver initialized
+Feb 14 02:12:16 popcorn kernel: [    0.865000] STMicroelectronics ASC driver initialized
+Feb 14 02:12:16 popcorn kernel: [    0.870000] [drm] Initialized drm 1.1.0 20060810
+Feb 14 02:12:16 popcorn kernel: [    0.885000] loop: module loaded
+Feb 14 02:12:16 popcorn kernel: [    0.895000] libphy: Fixed MDIO Bus: probed
+Feb 14 02:12:16 popcorn kernel: [    0.900000] CAN device driver interface
+Feb 14 02:12:16 popcorn kernel: [    0.900000] igb: Intel(R) Gigabit Ethernet Network Driver - version 5.3.0-k
+Feb 14 02:12:16 popcorn kernel: [    0.910000] igb: Copyright (c) 2007-2014 Intel Corporation.
+Feb 14 02:12:16 popcorn kernel: [    0.915000] pegasus: v0.9.3 (2013/04/25), Pegasus/Pegasus II USB Ethernet driver
+Feb 14 02:12:16 popcorn kernel: [    0.925000] usbcore: registered new interface driver pegasus
+Feb 14 02:12:16 popcorn kernel: [    0.930000] usbcore: registered new interface driver asix
+Feb 14 02:12:16 popcorn kernel: [    0.935000] usbcore: registered new interface driver ax88179_178a
+Feb 14 02:12:16 popcorn kernel: [    0.940000] usbcore: registered new interface driver cdc_ether
+Feb 14 02:12:16 popcorn kernel: [    0.950000] usbcore: registered new interface driver smsc75xx
+Feb 14 02:12:16 popcorn kernel: [    0.955000] usbcore: registered new interface driver smsc95xx
+Feb 14 02:12:16 popcorn kernel: [    0.960000] usbcore: registered new interface driver net1080
+Feb 14 02:12:16 popcorn kernel: [    0.965000] usbcore: registered new interface driver rndis_host
+Feb 14 02:12:16 popcorn kernel: [    0.970000] usbcore: registered new interface driver cdc_subset
+Feb 14 02:12:16 popcorn kernel: [    0.975000] usbcore: registered new interface driver zaurus
+Feb 14 02:12:16 popcorn kernel: [    0.985000] usbcore: registered new interface driver cdc_ncm
+Feb 14 02:12:16 popcorn kernel: [    0.990000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 14 02:12:16 popcorn kernel: [    0.995000] ehci-pci: EHCI PCI platform driver
+Feb 14 02:12:16 popcorn kernel: [    1.000000] ehci-platform: EHCI generic platform driver
+Feb 14 02:12:16 popcorn kernel: [    1.005000] ehci-omap: OMAP-EHCI Host Controller driver
+Feb 14 02:12:16 popcorn kernel: [    1.010000] ehci-orion: EHCI orion driver
+Feb 14 02:12:16 popcorn kernel: [    1.015000] ehci-st: EHCI STMicroelectronics driver
+Feb 14 02:12:16 popcorn kernel: [    1.020000] ehci-exynos: EHCI EXYNOS driver
+Feb 14 02:12:16 popcorn kernel: [    1.025000] ehci-atmel: EHCI Atmel driver
+Feb 14 02:12:16 popcorn kernel: [    1.030000] tegra-ehci: Tegra EHCI driver
+Feb 14 02:12:16 popcorn kernel: [    1.035000] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 14 02:12:16 popcorn kernel: [    1.040000] ohci-pci: OHCI PCI platform driver
+Feb 14 02:12:16 popcorn kernel: [    1.045000] ohci-platform: OHCI generic platform driver
+Feb 14 02:12:16 popcorn kernel: [    1.050000] ohci-omap3: OHCI OMAP3 driver
+Feb 14 02:12:16 popcorn kernel: [    1.055000] ohci-st: OHCI STMicroelectronics driver
+Feb 14 02:12:16 popcorn kernel: [    1.060000] ohci-atmel: OHCI Atmel driver
+Feb 14 02:12:16 popcorn kernel: [    1.065000] usbcore: registered new interface driver usb-storage
+Feb 14 02:12:16 popcorn kernel: [    1.070000] udc-core: couldn't find an available UDC - added [g_cdc] to list of pending drivers
+Feb 14 02:12:16 popcorn kernel: [    1.080000] mousedev: PS/2 mouse device common for all mice
+Feb 14 02:12:16 popcorn kernel: [    1.090000] i2c /dev entries driver
+Feb 14 02:12:16 popcorn kernel: [    1.095000] axp20x 0-0034: AXP20x variant AXP209 found
+Feb 14 02:12:16 popcorn kernel: [    1.105000] axp20x-gpio axp20x-gpio: AXP209 GPIO driver loaded
+Feb 14 02:12:16 popcorn kernel: [    1.120000] input: axp20x-pek as /devices/platform/soc@01c00000/1c2ac00.i2c/i2c-0/0-0034/axp20x-pek/input/input0
+Feb 14 02:12:16 popcorn kernel: [    1.135000] axp20x 0-0034: AXP20X driver loaded
+Feb 14 02:12:16 popcorn kernel: [    1.145000] Driver for 1-wire Dallas network protocol.
+Feb 14 02:12:16 popcorn kernel: [    1.150000] sunxi-wdt 1c20c90.watchdog: Watchdog enabled (timeout=16 sec, nowayout=0)
+Feb 14 02:12:16 popcorn kernel: [    1.160000] sdhci: Secure Digital Host Controller Interface driver
+Feb 14 02:12:16 popcorn kernel: [    1.165000] sdhci: Copyright(c) Pierre Ossman
+Feb 14 02:12:16 popcorn kernel: [    1.175000] Synopsys Designware Multimedia Card Interface Driver
+Feb 14 02:12:16 popcorn kernel: [    1.180000] sunxi-mmc 1c0f000.mmc: No vqmmc regulator found
+Feb 14 02:12:16 popcorn kernel: [    1.185000] sunxi-mmc 1c0f000.mmc: allocated mmc-pwrseq
+Feb 14 02:12:16 popcorn kernel: [    1.220000] sunxi-mmc 1c0f000.mmc: base:0xd0880000 irq:19
+Feb 14 02:12:16 popcorn kernel: [    1.225000] sunxi-mmc 1c11000.mmc: No vqmmc regulator found
+Feb 14 02:12:16 popcorn kernel: [    1.235000] sunxi-mmc 1c0f000.mmc: smc 0 err, cmd 8, RTO !!
+Feb 14 02:12:16 popcorn kernel: [    1.250000] mmc0: new high speed SDIO card at address 0001
+Feb 14 02:12:16 popcorn kernel: [    1.260000] sunxi-mmc 1c11000.mmc: base:0xd0882000 irq:20
+Feb 14 02:12:16 popcorn kernel: [    1.265000] sdhci-pltfm: SDHCI platform and OF driver helper
+Feb 14 02:12:16 popcorn kernel: [    1.270000] ledtrig-cpu: registered to indicate activity on CPUs
+Feb 14 02:12:16 popcorn kernel: [    1.280000] hidraw: raw HID events driver (C) Jiri Kosina
+Feb 14 02:12:16 popcorn kernel: [    1.285000] usbcore: registered new interface driver usbhid
+Feb 14 02:12:16 popcorn kernel: [    1.290000] usbhid: USB HID core driver
+Feb 14 02:12:16 popcorn kernel: [    1.295000] ip_tables: (C) 2000-2006 Netfilter Core Team
+Feb 14 02:12:16 popcorn kernel: [    1.300000] NET: Registered protocol family 10
+Feb 14 02:12:16 popcorn kernel: [    1.305000] sit: IPv6 over IPv4 tunneling driver
+Feb 14 02:12:16 popcorn kernel: [    1.315000] NET: Registered protocol family 17
+Feb 14 02:12:16 popcorn kernel: [    1.315000] can: controller area network core (rev 20120528 abi 9)
+Feb 14 02:12:16 popcorn kernel: [    1.325000] NET: Registered protocol family 29
+Feb 14 02:12:16 popcorn kernel: [    1.330000] can: raw protocol (rev 20120528)
+Feb 14 02:12:16 popcorn kernel: [    1.335000] can: broadcast manager protocol (rev 20120528 t)
+Feb 14 02:12:16 popcorn kernel: [    1.340000] can: netlink gateway (rev 20130117) max_hops=1
+Feb 14 02:12:16 popcorn kernel: [    1.345000] Key type dns_resolver registered
+Feb 14 02:12:16 popcorn kernel: [    1.350000] cpu: dev_pm_opp_of_cpumask_add_table: couldn't find opp table for cpu:0, -19
+Feb 14 02:12:16 popcorn kernel: [    1.360000] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+Feb 14 02:12:16 popcorn kernel: [    1.365000] ThumbEE CPU extension supported.
+Feb 14 02:12:16 popcorn kernel: [    1.370000] Registering SWP/SWPB emulation handler
+Feb 14 02:12:16 popcorn kernel: [    1.380000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 8, RTO !!
+Feb 14 02:12:16 popcorn kernel: [    1.390000] hctosys: unable to open rtc device (rtc0)
+Feb 14 02:12:16 popcorn kernel: [    1.395000] of_cfs_init
+Feb 14 02:12:16 popcorn kernel: [    1.400000] of_cfs_init: OK
+Feb 14 02:12:16 popcorn kernel: [    1.410000] vcc3v0: disabling
+Feb 14 02:12:16 popcorn kernel: [    1.410000] vcc5v0: disabling
+Feb 14 02:12:16 popcorn kernel: [    1.415000] Waiting for root device /dev/mmcblk0p2...
+Feb 14 02:12:16 popcorn kernel: [    1.420000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:16 popcorn kernel: [    1.430000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:16 popcorn kernel: [    1.435000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:16 popcorn kernel: [    1.440000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:16 popcorn kernel: [    1.495000] mmc1: MAN_BKOPS_EN bit is not set
+Feb 14 02:12:16 popcorn kernel: [    1.500000] mmc1: new high speed MMC card at address 0001
+Feb 14 02:12:16 popcorn kernel: [    1.510000] mmcblk0: mmc1:0001 NCard  7.22 GiB 
+Feb 14 02:12:16 popcorn kernel: [    1.515000] mmcblk0boot0: mmc1:0001 NCard  partition 1 4.00 MiB
+Feb 14 02:12:16 popcorn kernel: [    1.520000] mmcblk0boot1: mmc1:0001 NCard  partition 2 4.00 MiB
+Feb 14 02:12:16 popcorn kernel: [    1.525000]  mmcblk0: p1 p2
+Feb 14 02:12:16 popcorn kernel: [    2.240000] EXT4-fs (mmcblk0p2): recovery complete
+Feb 14 02:12:16 popcorn kernel: [    2.250000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Feb 14 02:12:16 popcorn kernel: [    2.255000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+Feb 14 02:12:16 popcorn kernel: [    2.265000] devtmpfs: mounted
+Feb 14 02:12:16 popcorn kernel: [    2.270000] Freeing unused kernel memory: 1080K
+Feb 14 02:12:16 popcorn kernel: [    3.785000] random: systemd: uninitialized urandom read (16 bytes read, 36 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    3.830000] random: systemd: uninitialized urandom read (16 bytes read, 36 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    3.860000] random: systemd: uninitialized urandom read (16 bytes read, 36 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    3.885000] random: systemd: uninitialized urandom read (16 bytes read, 36 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    3.920000] random: systemd: uninitialized urandom read (16 bytes read, 36 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    3.945000] random: systemd: uninitialized urandom read (16 bytes read, 37 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    3.975000] random: systemd: uninitialized urandom read (16 bytes read, 37 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    4.010000] random: systemd: uninitialized urandom read (16 bytes read, 37 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    4.035000] random: systemd: uninitialized urandom read (16 bytes read, 37 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [    4.060000] random: systemd: uninitialized urandom read (16 bytes read, 37 bits of entropy available)
+Feb 14 02:12:16 popcorn kernel: [   12.960000] sun4i-codec 1c22c00.codec: Codec <-> 1c22c00.codec mapping ok
+Feb 14 02:12:16 popcorn kernel: [   12.990000] ehci-platform 1c14000.usb: EHCI Host Controller
+Feb 14 02:12:16 popcorn kernel: [   12.990000] ehci-platform 1c14000.usb: new USB bus registered, assigned bus number 1
+Feb 14 02:12:16 popcorn kernel: [   13.005000] ehci-platform 1c14000.usb: irq 22, io mem 0x01c14000
+Feb 14 02:12:16 popcorn kernel: [   13.015000] ehci-platform 1c14000.usb: USB 2.0 started, EHCI 1.00
+Feb 14 02:12:16 popcorn kernel: [   13.015000] hub 1-0:1.0: USB hub found
+Feb 14 02:12:16 popcorn kernel: [   13.015000] hub 1-0:1.0: 1 port detected
+Feb 14 02:12:16 popcorn kernel: [   13.015000] ohci-platform 1c14400.usb: Generic Platform OHCI controller
+Feb 14 02:12:16 popcorn kernel: [   13.015000] ohci-platform 1c14400.usb: new USB bus registered, assigned bus number 2
+Feb 14 02:12:16 popcorn kernel: [   13.025000] ohci-platform 1c14400.usb: irq 23, io mem 0x01c14400
+Feb 14 02:12:16 popcorn kernel: [   13.095000] hub 2-0:1.0: USB hub found
+Feb 14 02:12:16 popcorn kernel: [   13.095000] hub 2-0:1.0: 1 port detected
+Feb 14 02:12:16 popcorn kernel: [   13.095000] usb_phy_generic.0.auto supply vcc not found, using dummy regulator
+Feb 14 02:12:16 popcorn kernel: [   13.100000] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+Feb 14 02:12:16 popcorn kernel: [   13.100000] musb-hdrc: MHDRC RTL version 0.0 
+Feb 14 02:12:16 popcorn kernel: [   13.100000] musb-hdrc: 11/11 max ep, 5184/8192 memory
+Feb 14 02:12:16 popcorn kernel: [   13.100000] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+Feb 14 02:12:16 popcorn kernel: [   13.100000] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 3
+Feb 14 02:12:16 popcorn kernel: [   13.150000] hub 3-0:1.0: USB hub found
+Feb 14 02:12:16 popcorn kernel: [   13.150000] hub 3-0:1.0: 1 port detected
+Feb 14 02:12:16 popcorn kernel: [   13.150000] using random self ethernet address
+Feb 14 02:12:16 popcorn kernel: [   13.150000] using random host ethernet address
+Feb 14 02:12:16 popcorn kernel: [   13.150000] usb0: HOST MAC 7a:8f:78:ae:78:7a
+Feb 14 02:12:16 popcorn kernel: [   13.150000] usb0: MAC 26:25:05:33:d0:e4
+Feb 14 02:12:16 popcorn kernel: [   13.150000] g_cdc gadget: CDC Composite Gadget, version: King Kamehameha Day 2008
+Feb 14 02:12:16 popcorn kernel: [   13.150000] g_cdc gadget: g_cdc ready
+Feb 14 02:12:18 popcorn kernel: [   23.025000] random: nonblocking pool is initialized
+Feb 15 01:00:20 popcorn kernel: [82105.060000] usb 1-1: new high-speed USB device number 2 using ehci-platform
+Feb 15 01:00:20 popcorn kernel: [82105.195000] usb-storage 1-1:1.1: USB Mass Storage device detected
+Feb 15 01:00:20 popcorn kernel: [82105.200000] scsi host0: usb-storage 1-1:1.1
+Feb 15 01:00:20 popcorn kernel: [82105.250000] usbcore: registered new interface driver uas
+Feb 15 01:00:21 popcorn kernel: [82106.200000] scsi 0:0:0:0: CD-ROM            Linux    File-CD Gadget   0409 PQ: 0 ANSI: 2
+Feb 15 01:00:21 popcorn kernel: [82106.210000] sr 0:0:0:0: [sr0] scsi-1 drive
+Feb 15 01:00:21 popcorn kernel: [82106.210000] cdrom: Uniform CD-ROM driver Revision: 3.20
+Feb 15 01:00:21 popcorn kernel: [82106.210000] sr 0:0:0:0: Attached scsi CD-ROM sr0
+Feb 15 01:00:23 popcorn kernel: [82108.445000] usb 1-1: USB disconnect, device number 2
+Feb 15 01:00:24 popcorn kernel: [82108.995000] usb 1-1: new high-speed USB device number 3 using ehci-platform
+Feb 15 01:00:24 popcorn kernel: [82109.130000] usb-storage 1-1:1.1: USB Mass Storage device detected
+Feb 15 01:00:24 popcorn kernel: [82109.130000] scsi host1: usb-storage 1-1:1.1
+Feb 15 01:00:25 popcorn kernel: [82110.130000] scsi 1:0:0:0: CD-ROM            Linux    File-CD Gadget   0409 PQ: 0 ANSI: 2
+Feb 15 01:00:25 popcorn kernel: [82110.140000] sr 1:0:0:0: [sr0] scsi-1 drive
+Feb 15 01:00:25 popcorn kernel: [82110.140000] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Feb 15 01:21:12 popcorn kernel: [83356.710000] usb 1-1: USB disconnect, device number 3
+Feb 15 01:29:33 popcorn kernel: [83857.705000] usb 1-1: new high-speed USB device number 4 using ehci-platform
+Feb 15 01:29:33 popcorn kernel: [83857.840000] usb-storage 1-1:1.1: USB Mass Storage device detected
+Feb 15 01:29:33 popcorn kernel: [83857.845000] scsi host2: usb-storage 1-1:1.1
+Feb 15 01:29:34 popcorn kernel: [83858.845000] scsi 2:0:0:0: CD-ROM            Linux    File-CD Gadget   0409 PQ: 0 ANSI: 2
+Feb 15 01:29:34 popcorn kernel: [83858.855000] sr 2:0:0:0: [sr0] scsi-1 drive
+Feb 15 01:29:34 popcorn kernel: [83858.855000] sr 2:0:0:0: Attached scsi CD-ROM sr0
+Feb 15 02:22:55 popcorn kernel: [87059.780000] usb 1-1: USB disconnect, device number 4
+Feb 15 03:13:30 popcorn kernel: [90095.115000] usb 2-1: new full-speed USB device number 2 using ohci-platform
+Feb 15 03:13:30 popcorn kernel: [90095.290000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:13:30 popcorn kernel: [90095.570000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:13:31 popcorn kernel: [90095.845000] usb 2-1: new full-speed USB device number 3 using ohci-platform
+Feb 15 03:13:31 popcorn kernel: [90096.020000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:13:31 popcorn kernel: [90096.300000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:13:31 popcorn kernel: [90096.405000] usb usb2-port1: attempt power cycle
+Feb 15 03:13:32 popcorn kernel: [90096.885000] usb 2-1: new full-speed USB device number 4 using ohci-platform
+Feb 15 03:13:32 popcorn kernel: [90097.295000] usb 2-1: device not accepting address 4, error -62
+Feb 15 03:13:32 popcorn kernel: [90097.465000] usb 2-1: new full-speed USB device number 5 using ohci-platform
+Feb 15 03:13:33 popcorn kernel: [90097.875000] usb 2-1: device not accepting address 5, error -62
+Feb 15 03:13:33 popcorn kernel: [90097.875000] usb usb2-port1: unable to enumerate USB device
+Feb 15 03:25:41 popcorn kernel: [90826.035000] usb 2-1: new full-speed USB device number 6 using ohci-platform
+Feb 15 03:25:41 popcorn kernel: [90826.210000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:25:41 popcorn kernel: [90826.490000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:25:42 popcorn kernel: [90826.765000] usb 2-1: new full-speed USB device number 7 using ohci-platform
+Feb 15 03:25:42 popcorn kernel: [90826.940000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:25:42 popcorn kernel: [90827.220000] usb 2-1: device descriptor read/64, error -62
+Feb 15 03:25:42 popcorn kernel: [90827.325000] usb usb2-port1: attempt power cycle
+Feb 15 03:25:43 popcorn kernel: [90827.805000] usb 2-1: new full-speed USB device number 8 using ohci-platform
+Feb 15 03:25:43 popcorn kernel: [90828.215000] usb 2-1: device not accepting address 8, error -62
+Feb 15 03:25:43 popcorn kernel: [90828.385000] usb 2-1: new full-speed USB device number 9 using ohci-platform
+Feb 15 03:25:44 popcorn kernel: [90828.795000] usb 2-1: device not accepting address 9, error -62
+Feb 15 03:25:44 popcorn kernel: [90828.795000] usb usb2-port1: unable to enumerate USB device
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Linux version 4.4.139- (akash@akash-vr) (gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11) ) #4 SMP Wed Jun 5 12:26:00 IST 2019
+Feb 14 02:12:14 popcorn kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Feb 14 02:12:14 popcorn kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Machine model: Source Parts Kettlepop
+Feb 14 02:12:14 popcorn kernel: [    0.000000] cma: Reserved 64 MiB at 0x4c000000
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Memory policy: Data cache writeback
+Feb 14 02:12:14 popcorn kernel: [    0.000000] On node 0 totalpages: 65536
+Feb 14 02:12:14 popcorn kernel: [    0.000000] free_area_init_node: node 0, pgdat c1123200, node_mem_map cbd99000
+Feb 14 02:12:14 popcorn kernel: [    0.000000]   DMA zone: 576 pages used for memmap
+Feb 14 02:12:14 popcorn kernel: [    0.000000]   DMA zone: 0 pages reserved
+Feb 14 02:12:14 popcorn kernel: [    0.000000]   DMA zone: 65536 pages, LIFO batch:15
+Feb 14 02:12:14 popcorn kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:14 popcorn kernel: [    0.000000] PERCPU: Embedded 12 pages/cpu @cbd6d000 s18828 r8192 d22132 u49152
+Feb 14 02:12:14 popcorn kernel: [    0.000000] pcpu-alloc: s18828 r8192 d22132 u49152 alloc=12*4096
+Feb 14 02:12:14 popcorn kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 64960
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Kernel command line: console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 rootwait rw panic=10
+Feb 14 02:12:14 popcorn kernel: [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Feb 14 02:12:14 popcorn kernel: [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Feb 14 02:12:14 popcorn kernel: [    0.000000] MemoryFeb 14 02:12:15 popcorn kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuset
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpu
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Linux version 4.4.139- (akash@akash-vr) (gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11) ) #4 SMP Wed Jun 5 12:26:00 IST 2019
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c5387d
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Machine model: Source Parts Kettlepop
+Feb 14 02:12:15 popcorn kernel: [    0.000000] cma: Reserved 64 MiB at 0x4c000000
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory policy: Data cache writeback
+Feb 14 02:12:15 popcorn kernel: [    0.000000] On node 0 totalpages: 65536
+Feb 14 02:12:15 popcorn kernel: [    0.000000] free_area_init_node: node 0, pgdat c1123200, node_mem_map cbd99000
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 576 pages used for memmap
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 0 pages reserved
+Feb 14 02:12:15 popcorn kernel: [    0.000000]   DMA zone: 65536 pages, LIFO batch:15
+Feb 14 02:12:15 popcorn kernel: [    0.000000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PERCPU: Embedded 12 pages/cpu @cbd6d000 s18828 r8192 d22132 u49152
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: s18828 r8192 d22132 u49152 alloc=12*4096
+Feb 14 02:12:15 popcorn kernel: [    0.000000] pcpu-alloc: [0] 0 
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 64960
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Kernel command line: console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 rootwait rw panic=10
+Feb 14 02:12:15 popcorn kernel: [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Memory: 177784K/262144K available (9144K kernel code, 1141K rwdata, 4208K rodata, 1080K init, 349K bss, 18824K reserved, 65536K cma-reserved, 0K highmem)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Virtual kernel memory layout:
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     vmalloc : 0xd0800000 - 0xff800000   ( 752 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .text : 0xc0208000 - 0xc0f131a0   (13357 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .init : 0xc0f14000 - 0xc1022000   (1080 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]       .data : 0xc1022000 - 0xc113f678   (1142 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000]        .bss : 0xc1142000 - 0xc11996c0   ( 350 kB)
+Feb 14 02:12:15 popcorn kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=16 to nr_cpu_ids=1.
+Feb 14 02:12:15 popcorn kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+Feb 14 02:12:15 popcorn kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370868154 ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] sched_clock: 32 bits at 200 Hz, resolution 5000000ns, wraps every 10737418237500000ns
+Feb 14 02:12:15 popcorn kernel: [    0.000000] Console: colour dummy device 80x30
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Calibrating delay loop... 1002.70 BogoMIPS (lpj=2506752)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] pid_max: default: 32768 minimum: 301
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys io
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys memory
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys devices
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys freezer
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys net_cls
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys net_prio
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Initializing cgroup subsys pids
+Feb 14 02:12:15 popcorn kernel: [    0.025000] CPU: Testing write buffer coherency: ok
+Feb 14 02:12:15 popcorn kernel: [    0.025000] CPU0: thread -1, cpu 0, socket -1, mpidr 0
+Feb 14 02:12:15 popcorn kernel: [    0.025000] Setting up static identity map for 0x40209000 - 0x40209098
+Feb 14 02:12:15 popcorn kernel: [    0.030000] Brought up 1 CPUs
+Feb 14 02:12:15 popcorn kernel: [    0.030000] SMP: Total of 1 processors activated (1002.70 BogoMIPS).
+Feb 14 02:12:15 popcorn kernel: [    0.030000] CPU: All CPU(s) started in SVC mode.
+Feb 14 02:12:15 popcorn kernel: [    0.030000] devtmpfs: initialized
+Feb 14 02:12:15 popcorn kernel: [    0.045000] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+Feb 14 02:12:15 popcorn kernel: [    0.045000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 9556302231375000 ns
+Feb 14 02:12:15 popcorn kernel: [    0.045000] futex hash table entries: 256 (order: 2, 16384 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.050000] pinctrl core: initialized pinctrl subsystem
+Feb 14 02:12:15 popcorn kernel: [    0.050000] NET: Registered protocol family 16
+Feb 14 02:12:15 popcorn kernel: [    0.055000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Feb 14 02:12:15 popcorn kernel: [    0.055000] cpuidle: using governor ladder
+Feb 14 02:12:15 popcorn kernel: [    0.055000] cpuidle: using governor menu
+Feb 14 02:12:15 popcorn kernel: [    0.060000] No ATAGs?
+Feb 14 02:12:15 popcorn kernel: [    0.060000] hw-breakpoint: debug architecture 0x4 unsupported.
+Feb 14 02:12:15 popcorn kernel: [    0.065000] Serial: AMBA PL011 UART driver
+Feb 14 02:12:15 popcorn kernel: [    0.080000] vgaarb: loaded
+Feb 14 02:12:15 popcorn kernel: [    0.080000] SCSI subsystem initialized
+Feb 14 02:12:15 popcorn kernel: [    0.080000] libata version 3.00 loaded.
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new interface driver usbfs
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new interface driver hub
+Feb 14 02:12:15 popcorn kernel: [    0.080000] usbcore: registered new device driver usb
+Feb 14 02:12:15 popcorn kernel: [    0.080000] pps_core: LinuxPPS API ver. 1 registered
+Feb 14 02:12:15 popcorn kernel: [    0.080000] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Feb 14 02:12:15 popcorn kernel: [    0.080000] PTP clock support registered
+Feb 14 02:12:15 popcorn kernel: [    0.080000] EDAC MC: Ver: 3.0.0
+Feb 14 02:12:15 popcorn kernel: [    0.085000] clocksource: Switched to clocksource timer
+Feb 14 02:12:15 popcorn kernel: [    0.095000] NET: Registered protocol family 2
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] TCP: Hash tables configured (established 2048 bind 2048)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Feb 14 02:12:15 popcorn kernel: [    0.095000] NET: Registered protocol family 1
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered named UNIX socket transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered udp transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered tcp transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 14 02:12:15 popcorn kernel: [    0.095000] PCI: CLS 0 bytes, default 64
+Feb 14 02:12:15 popcorn kernel: [    0.110000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 14 02:12:15 popcorn kernel: [    0.110000] NFS: Registering the id_resolver key type
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Key type id_resolver registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Key type id_legacy registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] ntfs: driver 2.1.32 [Flags: R/W].
+Feb 14 02:12:15 popcorn kernel: [    0.110000] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler noop registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler deadline registered
+Feb 14 02:12:15 popcorn kernel: [    0.110000] io scheduler cfq registered (default)
+Feb 14 02:12:15 popcorn kernel: [    0.115000] gr8-pinctrl 1c20800.pinctrl: initialized sunXi PIO driver
+Feb 14 02:12:15 popcorn kernel: [    0.190000] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Feb 14 02:12:15 popcorn kernel: [    0.190000] console [ttyS0] disabled
+Feb 14 02:12:15 popcorn kernel: [    0.210000] 1c28400.serial: ttyS0 at MMIO 0x1c28400 (irq = 27, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.790000] console [ttyS0] enabled
+Feb 14 02:12:15 popcorn kernel: [    0.815000] 1c28800.serial: ttyS1 at MMIO 0x1c28800 (irq = 28, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.845000] 1c28c00.serial: ttyS2 at MMIO 0x1c28c00 (irq = 29, base_baud = 1500000) is a U6_16550A
+Feb 14 02:12:15 popcorn kernel: [    0.855000] SuperH (H)SCI(F) driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.860000] msm_serial: driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.865000] STMicroelectronics ASC driver initialized
+Feb 14 02:12:15 popcorn kernel: [    0.870000] [drm] Initialized drm 1.1.0 20060810
+Feb 14 02:12:15 popcorn kernel: [    0.885000] loop: module loaded
+Feb 14 02:12:15 popcorn kernel: [    0.895000] libphy: Fixed MDIO Bus: probed
+Feb 14 02:12:15 popcorn kernel: [    0.900000] CAN device driver interface
+Feb 14 02:12:15 popcorn kernel: [    0.900000] igb: Intel(R) Gigabit Ethernet Network Driver - version 5.3.0-k
+Feb 14 02:12:15 popcorn kernel: [    0.910000] igb: Copyright (c) 2007-2014 Intel Corporation.
+Feb 14 02:12:15 popcorn kernel: [    0.915000] pegasus: v0.9.3 (2013/04/25), Pegasus/Pegasus II USB Ethernet driver
+Feb 14 02:12:15 popcorn kernel: [    0.925000] usbcore: registered new interface driver pegasus
+Feb 14 02:12:15 popcorn kernel: [    0.930000] usbcore: registered new interface driver asix
+Feb 14 02:12:15 popcorn kernel: [    0.935000] usbcore: registered new interface driver ax88179_178a
+Feb 14 02:12:15 popcorn kernel: [    0.940000] usbcore: registered new interface driver cdc_ether
+Feb 14 02:12:15 popcorn kernel: [    0.950000] usbcore: registered new interface driver smsc75xx
+Feb 14 02:12:15 popcorn kernel: [    0.955000] usbcore: registered new interface driver smsc95xx
+Feb 14 02:12:15 popcorn kernel: [    0.960000] usbcore: registered new interface driver net1080
+Feb 14 02:12:15 popcorn kernel: [    0.965000] usbcore: registered new interface driver rndis_host
+Feb 14 02:12:15 popcorn kernel: [    0.970000] usbcore: registered new interface driver cdc_subset
+Feb 14 02:12:15 popcorn kernel: [    0.975000] usbcore: registered new interface driver zaurus
+Feb 14 02:12:15 popcorn kernel: [    0.985000] usbcore: registered new interface driver cdc_ncm
+Feb 14 02:12:15 popcorn kernel: [    0.990000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 14 02:12:15 popcorn kernel: [    0.995000] ehci-pci: EHCI PCI platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.000000] ehci-platform: EHCI generic platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.005000] ehci-omap: OMAP-EHCI Host Controller driver
+Feb 14 02:12:15 popcorn kernel: [    1.010000] ehci-orion: EHCI orion driver
+Feb 14 02:12:15 popcorn kernel: [    1.015000] ehci-st: EHCI STMicroelectronics driver
+Feb 14 02:12:15 popcorn kernel: [    1.020000] ehci-exynos: EHCI EXYNOS driver
+Feb 14 02:12:15 popcorn kernel: [    1.025000] ehci-atmel: EHCI Atmel driver
+Feb 14 02:12:15 popcorn kernel: [    1.030000] tegra-ehci: Tegra EHCI driver
+Feb 14 02:12:15 popcorn kernel: [    1.035000] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 14 02:12:15 popcorn kernel: [    1.040000] ohci-pci: OHCI PCI platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.045000] ohci-platform: OHCI generic platform driver
+Feb 14 02:12:15 popcorn kernel: [    1.050000] ohci-omap3: OHCI OMAP3 driver
+Feb 14 02:12:15 popcorn kernel: [    1.055000] ohci-st: OHCI STMicroelectronics driver
+Feb 14 02:12:15 popcorn kernel: [    1.060000] ohci-atmel: OHCI Atmel driver
+Feb 14 02:12:15 popcorn kernel: [    1.065000] usbcore: registered new interface driver usb-storage
+Feb 14 02:12:15 popcorn kernel: [    1.070000] udc-core: couldn't find an available UDC - added [g_cdc] to list of pending drivers
+Feb 14 02:12:15 popcorn kernel: [    1.080000] mousedev: PS/2 mouse device common for all mice
+Feb 14 02:12:15 popcorn kernel: [    1.090000] i2c /dev entries driver
+Feb 14 02:12:15 popcorn kernel: [    1.095000] axp20x 0-0034: AXP20x variant AXP209 found
+Feb 14 02:12:15 popcorn kernel: [    1.105000] axp20x-gpio axp20x-gpio: AXP209 GPIO driver loaded
+Feb 14 02:12:15 popcorn kernel: [    1.120000] input: axp20x-pek as /devices/platform/soc@01c00000/1c2ac00.i2c/i2c-0/0-0034/axp20x-pek/input/input0
+Feb 14 02:12:15 popcorn kernel: [    1.135000] axp20x 0-0034: AXP20X driver loaded
+Feb 14 02:12:15 popcorn kernel: [    1.145000] Driver for 1-wire Dallas network protocol.
+Feb 14 02:12:15 popcorn kernel: [    1.150000] sunxi-wdt 1c20c90.watchdog: Watchdog enabled (timeout=16 sec, nowayout=0)
+Feb 14 02:12:15 popcorn kernel: [    1.160000] sdhci: Secure Digital Host Controller Interface driver
+Feb 14 02:12:15 popcorn kernel: [    1.165000] sdhci: Copyright(c) Pierre Ossman
+Feb 14 02:12:15 popcorn kernel: [    1.170000] Synopsys Designware Multimedia Card Interface Driver
+Feb 14 02:12:15 popcorn kernel: [    1.180000] sunxi-mmc 1c0f000.mmc: No vqmmc regulator found
+Feb 14 02:12:15 popcorn kernel: [    1.185000] sunxi-mmc 1c0f000.mmc: allocated mmc-pwrseq
+Feb 14 02:12:15 popcorn kernel: [    1.220000] sunxi-mmc 1c0f000.mmc: base:0xd0880000 irq:19
+Feb 14 02:12:15 popcorn kernel: [    1.225000] sunxi-mmc 1c11000.mmc: No vqmmc regulator found
+Feb 14 02:12:15 popcorn kernel: [    1.235000] sunxi-mmc 1c0f000.mmc: smc 0 err, cmd 8, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.250000] mmc0: new high speed SDIO card at address 0001
+Feb 14 02:12:15 popcorn kernel: [    1.260000] sunxi-mmc 1c11000.mmc: base:0xd0882000 irq:20
+Feb 14 02:12:15 popcorn kernel: [    1.265000] sdhci-pltfm: SDHCI platform and OF driver helper
+Feb 14 02:12:15 popcorn kernel: [    1.270000] ledtrig-cpu: registered to indicate activity on CPUs
+Feb 14 02:12:15 popcorn kernel: [    1.280000] hidraw: raw HID events driver (C) Jiri Kosina
+Feb 14 02:12:15 popcorn kernel: [    1.285000] usbcore: registered new interface driver usbhid
+Feb 14 02:12:15 popcorn kernel: [    1.290000] usbhid: USB HID core driver
+Feb 14 02:12:15 popcorn kernel: [    1.295000] ip_tables: (C) 2000-2006 Netfilter Core Team
+Feb 14 02:12:15 popcorn kernel: [    1.300000] NET: Registered protocol family 10
+Feb 14 02:12:15 popcorn kernel: [    1.305000] sit: IPv6 over IPv4 tunneling driver
+Feb 14 02:12:15 popcorn kernel: [    1.315000] NET: Registered protocol family 17
+Feb 14 02:12:15 popcorn kernel: [    1.315000] can: controller area network core (rev 20120528 abi 9)
+Feb 14 02:12:15 popcorn kernel: [    1.325000] NET: Registered protocol family 29
+Feb 14 02:12:15 popcorn kernel: [    1.330000] can: raw protocol (rev 20120528)
+Feb 14 02:12:15 popcorn kernel: [    1.335000] can: broadcast manager protocol (rev 20120528 t)
+Feb 14 02:12:15 popcorn kernel: [    1.340000] can: netlink gateway (rev 20130117) max_hops=1
+Feb 14 02:12:15 popcorn kernel: [    1.345000] Key type dns_resolver registered
+Feb 14 02:12:15 popcorn kernel: [    1.350000] cpu: dev_pm_opp_of_cpumask_add_table: couldn't find opp table for cpu:0, -19
+Feb 14 02:12:15 popcorn kernel: [    1.360000] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+Feb 14 02:12:15 popcorn kernel: [    1.365000] ThumbEE CPU extension supported.
+Feb 14 02:12:15 popcorn kernel: [    1.370000] Registering SWP/SWPB emulation handler
+Feb 14 02:12:15 popcorn kernel: [    1.380000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 8, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.390000] hctosys: unable to open rtc device (rtc0)
+Feb 14 02:12:15 popcorn kernel: [    1.395000] of_cfs_init
+Feb 14 02:12:15 popcorn kernel: [    1.400000] of_cfs_init: OK
+Feb 14 02:12:15 popcorn kernel: [    1.405000] vcc3v0: disabling
+Feb 14 02:12:15 popcorn kernel: [    1.410000] vcc5v0: disabling
+Feb 14 02:12:15 popcorn kernel: [    1.415000] Waiting for root device /dev/mmcblk0p2...
+Feb 14 02:12:15 popcorn kernel: [    1.420000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.425000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.435000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.440000] sunxi-mmc 1c11000.mmc: smc 1 err, cmd 55, RTO !!
+Feb 14 02:12:15 popcorn kernel: [    1.495000] mmc1: MAN_BKOPS_EN bit is not set
+Feb 14 02:12:15 popcorn kernel: [    1.500000] mmc1: new high speed MMC card at address 0001
+Feb 14 02:12:15 popcorn kernel: [    1.510000] mmcblk0: mmc1:0001 NCard  7.22 GiB 
+Feb 14 02:12:15 popcorn kernel: [    1.515000] mmcblk0boot0: mmc1:0001 NCard  partition 1 4.00 MiB
+Feb 14 02:12:15 popcorn kernel: [    1.520000] mmcblk0boot1: mmc1:0001 NCard  partition 2 4.00 MiB
+Feb 14 02:12:15 popcorn kernel: [    1.525000]  mmcblk0: p1 p2
+Feb 14 02:12:15 popcorn kernel: [    1.750000] EXT4-fs (mmcblk0p2): recovery complete
+Feb 14 02:12:15 popcorn kernel: [    1.755000] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Feb 14 02:12:15 popcorn kernel: [    1.765000] VFS: Mounted root (ext4 filesystem) on device 179:2.
+Feb 14 02:12:15 popcorn kernel: [    1.775000] devtmpfs: mounted
+Feb 14 02:12:15 popcorn kernel: [    1.780000] Freeing unused kernel memory: 1080K
+Feb 14 02:12:15 popcorn kernel: [    3.510000] random: systemd: uninitialized urandom read (16 bytes read, 21 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.535000] random: systemd: uninitialized urandom read (16 bytes read, 21 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.570000] random: systemd: uninitialized urandom read (16 bytes read, 22 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.595000] random: systemd: uninitialized urandom read (16 bytes read, 22 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.620000] random: systemd: uninitialized urandom read (16 bytes read, 22 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.645000] random: systemd: uninitialized urandom read (16 bytes read, 22 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.680000] random: systemd: uninitialized urandom read (16 bytes read, 22 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.705000] random: systemd: uninitialized urandom read (16 bytes read, 22 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.740000] random: systemd: uninitialized urandom read (16 bytes read, 22 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [    3.775000] random: systemd: uninitialized urandom read (16 bytes read, 23 bits of entropy available)
+Feb 14 02:12:15 popcorn kernel: [   12.485000] sun4i-codec 1c22c00.codec: Codec <-> 1c22c00.codec mapping ok
+Feb 14 02:12:15 popcorn kernel: [   12.650000] ehci-platform 1c14000.usb: EHCI Host Controller
+Feb 14 02:12:15 popcorn kernel: [   12.650000] ehci-platform 1c14000.usb: new USB bus registered, assigned bus number 1
+Feb 14 02:12:15 popcorn kernel: [   12.675000] ehci-platform 1c14000.usb: irq 22, io mem 0x01c14000
+Feb 14 02:12:15 popcorn kernel: [   12.690000] ehci-platform 1c14000.usb: USB 2.0 started, EHCI 1.00
+Feb 14 02:12:15 popcorn kernel: [   12.690000] hub 1-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   12.690000] hub 1-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   12.690000] ohci-platform 1c14400.usb: Generic Platform OHCI controller
+Feb 14 02:12:15 popcorn kernel: [   12.690000] ohci-platform 1c14400.usb: new USB bus registered, assigned bus number 2
+Feb 14 02:12:15 popcorn kernel: [   12.690000] ohci-platform 1c14400.usb: irq 23, io mem 0x01c14400
+Feb 14 02:12:15 popcorn kernel: [   12.775000] hub 2-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   12.775000] hub 2-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   12.775000] usb_phy_generic.0.auto supply vcc not found, using dummy regulator
+Feb 14 02:12:15 popcorn kernel: [   12.780000] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+Feb 14 02:12:15 popcorn kernel: [   12.780000] musb-hdrc: MHDRC RTL version 0.0 
+Feb 14 02:12:15 popcorn kernel: [   12.780000] musb-hdrc: 11/11 max ep, 5184/8192 memory
+Feb 14 02:12:15 popcorn kernel: [   12.780000] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+Feb 14 02:12:15 popcorn kernel: [   12.780000] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 3
+Feb 14 02:12:15 popcorn kernel: [   12.800000] hub 3-0:1.0: USB hub found
+Feb 14 02:12:15 popcorn kernel: [   12.800000] hub 3-0:1.0: 1 port detected
+Feb 14 02:12:15 popcorn kernel: [   12.800000] using random self ethernet address
+Feb 14 02:12:15 popcorn kernel: [   12.800000] using random host ethernet address
+Feb 14 02:12:15 popcorn kernel: [   12.805000] usb0: HOST MAC da:1e:65:1a:9c:4c
+Feb 14 02:12:15 popcorn kernel: [   12.805000] usb0: MAC 46:51:14:1d:38:93
+Feb 14 02:12:15 popcorn kernel: [   12.805000] g_cdc gadget: CDC Composite Gadget, version: King Kamehameha Day 2008
+Feb 14 02:12:15 popcorn kernel: [   12.805000] g_cdc gadget: g_cdc ready
+Feb 14 02:12:18 popcorn kernel: [   22.395000] random: nonblocking pool is initialized
+Feb 14 02:37:31 popcorn kernel: [ 1535.300000] g_cdc gadget: high-speed config #1: CDC Composite (ECM + ACM)
+Feb 14 03:11:22 popcorn kernel: [ 3566.465000] 8723bs: loading out-of-tree module taints kernel.
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol __cfg80211_alloc_event_skb (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol wiphy_register (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_remain_on_channel_expired (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_vendor_cmd_reply (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_del_sta_sinfo (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol wiphy_unregister (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_ready_on_channel (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol __ieee80211_get_channel (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol wiphy_free (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol wiphy_new_nm (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_get_bss (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol __cfg80211_send_event_skb (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_disconnected (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_michael_mic_failure (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_ibss_joined (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_scan_done (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_roamed (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_put_bss (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_unlink_bss (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_connect_result (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_inform_bss_frame_data (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_new_sta (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol __cfg80211_alloc_reply_skb (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_rx_mgmt (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol ieee80211_frequency_to_channel (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol wiphy_apply_custom_regulatory (err 0)
+Feb 14 03:11:22 popcorn kernel: [ 3566.470000] 8723bs: Unknown symbol cfg80211_mgmt_tx_status (err 0)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211: World regulatory domain updated:
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:  DFS Master region: unset
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz, 92000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+Feb 14 03:11:33 popcorn kernel: [ 3578.245000] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+Feb 14 03:11:37 popcorn kernel: [ 3581.410000] RTL871X: module init start
+Feb 14 03:11:37 popcorn kernel: [ 3581.410000] RTL871X: rtl8723bs v4.4.2_17831.20160519_BTCOEX20151223-654a
+Feb 14 03:11:37 popcorn kernel: [ 3581.410000] RTL871X: build time: Jun 10 2019 15:13:42
+Feb 14 03:11:37 popcorn kernel: [ 3581.410000] RTL871X: rtl8723bs BT-Coex version = BTCOEX20151223-654a
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: rtw_hal_config_rftype RF_Type is 3 TotalTxPath is 1 
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: Chip Version Info: CHIP_8723B_Normal_Chip_TSMC_F_CUT_1T1R_RomVer(0)
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: SetHwReg8723B: bMacPwrCtrlOn=1
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: PowerOnCheck: val_mix:0x0000063f, res:0x0000063f
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: PowerOnCheck: 0x100 the result of cmd52 and cmd53 is the same.
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: PowerOnCheck: 0x1B8 test Pass.
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: ReadAdapterInfo8723BS, 0x4e=0xe2
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: EEPROM type is E-FUSE
+Feb 14 03:11:37 popcorn kernel: [ 3581.420000] RTL871X: hal_EfuseSwitchToBank: Efuse switch bank to 0
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: hal_ReadEFuse_WiFi: data end at address=0xad
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: Efuse Realmap:
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 29 81 03 7C 51 08 28 00 62 07 0D 45 10 02 00 00 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 2E 2E 2E 2E 2E 2E 30 30 30 30 30 E0 FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF 2D 2D 2D 2D 2D 2D 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 2D 2D 2D 2D 2D E0 FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF 20 22 22 00 00 00 FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF 29 20 11 00 00 00 FF 00 FF 12 FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 3E 10 01 02 23 00 00 FF 20 04 4C 02 23 B7 21 02 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 0C 00 22 04 00 08 00 32 FF 21 02 0C 00 22 2A 01 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 01 00 00 00 00 00 00 00 00 00 00 00 02 00 FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] 00 EB 00 6E 01 00 00 00 00 FF 58 B3 FC 2A E9 AC 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: Hal_EfuseParseBTCoexistInfo_8723B: Enable BT-coex, ant_num=1
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: hal_com_config_channel_plan chplan:0x20
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: Hal_EfuseParsePackageType_8723B phy efuse read 0x1FB =fc 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: PackageType = 0x4
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: Hal_EfuseParseVoltage_8723B hwinfo[EEPROM_Voltage_ADDR_8723B] =62 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: Hal_EfuseParseVoltage_8723B pHalData->adjuseVoltageVal =6 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: AutoloadFail =0,
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: pHalData->EEPROMRFGainVal=33
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: EEPRORFGainOffset = 0x29
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: SetHwReg8723B: bMacPwrCtrlOn=0
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: rtw_hal_read_chip_info in 40 ms
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: init_channel_set((null)) ChannelPlan ID:0x20, ch num:13
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: rtw_alloc_macid((null)) if1, hwaddr:ff:ff:ff:ff:ff:ff macid:1
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: Init_ODM_ComInfo_8723b(): fab_ver=0 cut_ver=0
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: rtw_macaddr_cfg mac addr:58:b3:fc:2a:e9:ac
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: bDriverStopped:True, bSurpriseRemoved:False, bup:0, hw_init_completed:0
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: rtw_wiphy_alloc(phy0)
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: rtw_wdev_alloc(padapter=d1064000)
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: rtw_wiphy_register(phy0)
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: Register RTW cfg80211 vendor cmd(0x67) interface 
+Feb 14 03:11:37 popcorn kernel: [ 3581.460000] RTL871X: rtw_ndev_init(wlan0) if1 mac_addr=58:b3:fc:2a:e9:ac
+Feb 14 03:11:37 popcorn kernel: [ 3581.475000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:37 popcorn kernel: [ 3581.525000] RTL871X: module init ret=0
+Feb 14 03:11:37 popcorn kernel: [ 3581.905000] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Feb 14 03:11:37 popcorn kernel: [ 3581.905000] RTL871X: +871x_drv - drv_open, bup=0
+Feb 14 03:11:37 popcorn kernel: [ 3581.915000] RTL871X: FW does not exist before power on!!
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: SetHwReg8723B: bMacPwrCtrlOn=1
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: PowerOnCheck: val_mix:0x0000063f, res:0x0000063f
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: PowerOnCheck: 0x100 the result of cmd52 and cmd53 is the same.
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: PowerOnCheck: 0x1B8 test Pass.
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: Power on ok!
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: rtl8723b_FirmwareDownload fw: FW_NIC, size: 31952
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: rtl8723b_FirmwareDownload: fw_ver=27 fw_subver=0000 sig=0x5301, Month=10, Date=30, Hour=15, Minute=16
+Feb 14 03:11:37 popcorn kernel: [ 3581.920000] RTL871X: rtl8723b_FirmwareDownload(): Shift for fw header!
+Feb 14 03:11:37 popcorn kernel: [ 3582.200000] RTL871X: polling_fwdl_chksum: Checksum report OK! (1, 0ms), REG_MCUFWDL:0x00070305
+Feb 14 03:11:37 popcorn kernel: [ 3582.200000] RTL871X: _8051Reset8723: Finish
+Feb 14 03:11:37 popcorn kernel: [ 3582.230000] RTL871X: _FWFreeToGo: Polling FW ready OK! (462, 30ms), REG_MCUFWDL:0x000706c6
+Feb 14 03:11:37 popcorn kernel: [ 3582.230000] RTL871X: FWDL success. write_fw:1, 310ms
+Feb 14 03:11:37 popcorn kernel: [ 3582.230000] RTL871X:  <=== rtl8723b_FirmwareDownload()
+Feb 14 03:11:37 popcorn kernel: [ 3582.230000] RTL871X: HalDetectPwrDownMode(): PDN=0
+Feb 14 03:11:37 popcorn kernel: [ 3582.230000] RTL871X: Set RF Chip ID to RF_6052 and RF type to 3.
+Feb 14 03:11:38 popcorn kernel: [ 3582.770000] RTL871X: _init_available_page_threshold(): Enable Tx FIFO Page Threshold H:0x7a7a,N:0x7575,L:0x7575
+Feb 14 03:11:38 popcorn kernel: [ 3582.775000] RTL871X: ===>phy_SwChnl8723B: Channel = 1
+Feb 14 03:11:38 popcorn kernel: [ 3582.775000] RTL871X: ADAPTIVITY_VERSION 9.0
+Feb 14 03:11:38 popcorn kernel: [ 3582.775000] RTL871X: RTW_ADAPTIVITY_EN_ENABLE
+Feb 14 03:11:38 popcorn kernel: [ 3582.775000] RTL871X: RTW_ADAPTIVITY_MODE_NORMAL
+Feb 14 03:11:38 popcorn kernel: [ 3582.775000] RTL871X: RTW_ADAPTIVITY_DML_DISABLE
+Feb 14 03:11:38 popcorn kernel: [ 3582.775000] RTL871X: RTW_ADAPTIVITY_DC_BACKOFF:2
+Feb 14 03:11:38 popcorn kernel: [ 3582.785000] RTL871X: pDM_Odm TxPowerTrackControl = 1
+Feb 14 03:11:38 popcorn kernel: [ 3582.785000] RTL871X: pDM_Odm TxPowerTrackControl = 1
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: ===>phy_SwChnl8723B: Channel = 1
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: #### hw_var_set_opmode() -5317 iface_type(0) mode = 2 ####
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: Using the default RF gain.
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: MAC Address = 58:b3:fc:2a:e9:ac
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: start rtl8723bs_xmit_thread(wlan0)
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: rtw_cfg80211_init_wiphy:rf_type=3
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: [HT] HAL Support STBC = 0x01
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: -871x_drv - drv_open, bup=1
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: cfg80211_rtw_set_power_mgmt(wlan0) enabled:1, timeout:-1
+Feb 14 03:11:38 popcorn kernel: [ 3583.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=0 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=1 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=2 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=3 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=4 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=5 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=6 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=7 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=8 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=9 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=10 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:38 popcorn kernel: [ 3583.095000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=11 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.095000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=12 len=7
+Feb 14 03:11:38 popcorn kernel: [ 3583.100000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:38 popcorn kernel: [ 3583.155000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:38 popcorn kernel: [ 3583.155000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:38 popcorn kernel: [ 3583.155000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:38 popcorn kernel: [ 3583.155000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:38 popcorn kernel: [ 3583.155000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:38 popcorn kernel: [ 3583.165000] RTL871X: cfg80211_rtw_flush_pmksa(wlan0)
+Feb 14 03:11:39 popcorn kernel: [ 3583.325000] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Feb 14 03:11:39 popcorn kernel: [ 3583.370000] RTL871X: cfg80211_rtw_scan(wlan0)
+Feb 14 03:11:39 popcorn kernel: [ 3583.370000] RTL871X: ===>phy_SwChnl8723B: Channel = 1
+Feb 14 03:11:39 popcorn kernel: [ 3583.370000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=13 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.375000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=14 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.375000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=15 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.375000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:39 popcorn kernel: [ 3583.375000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=16 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=17 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=18 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=19 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=20 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=21 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.380000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:39 popcorn kernel: [ 3583.385000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=22 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.385000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=23 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.385000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:39 popcorn kernel: [ 3583.385000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=24 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.390000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=25 len=7
+Feb 14 03:11:39 popcorn kernel: [ 3583.390000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:39 popcorn kernel: [ 3583.470000] RTL871X: ===>phy_SwChnl8723B: Channel = 2
+Feb 14 03:11:39 popcorn kernel: [ 3583.590000] RTL871X: ===>phy_SwChnl8723B: Channel = 3
+Feb 14 03:11:39 popcorn kernel: [ 3583.690000] RTL871X: ===>phy_SwChnl8723B: Channel = 4
+Feb 14 03:11:39 popcorn kernel: [ 3583.790000] RTL871X: ===>phy_SwChnl8723B: Channel = 5
+Feb 14 03:11:39 popcorn kernel: [ 3583.890000] RTL871X: ===>phy_SwChnl8723B: Channel = 6
+Feb 14 03:11:39 popcorn kernel: [ 3583.990000] RTL871X: ===>phy_SwChnl8723B: Channel = 7
+Feb 14 03:11:39 popcorn kernel: [ 3584.090000] RTL871X: ===>phy_SwChnl8723B: Channel = 8
+Feb 14 03:11:39 popcorn kernel: [ 3584.190000] RTL871X: ===>phy_SwChnl8723B: Channel = 9
+Feb 14 03:11:40 popcorn kernel: [ 3584.290000] RTL871X: ===>phy_SwChnl8723B: Channel = 10
+Feb 14 03:11:40 popcorn kernel: [ 3584.390000] RTL871X: ===>phy_SwChnl8723B: Channel = 11
+Feb 14 03:11:40 popcorn kernel: [ 3584.490000] RTL871X: ===>phy_SwChnl8723B: Channel = 12
+Feb 14 03:11:40 popcorn kernel: [ 3584.590000] RTL871X: ===>phy_SwChnl8723B: Channel = 13
+Feb 14 03:11:40 popcorn kernel: [ 3584.690000] RTL871X: ===>phy_SwChnl8723B: Channel = 1
+Feb 14 03:11:40 popcorn kernel: [ 3584.690000] RTL871X: survey done event(f) band:0 for wlan0
+Feb 14 03:11:40 popcorn kernel: [ 3584.690000] RTL871X: rtw_indicate_scan_done(wlan0)
+Feb 14 03:11:40 popcorn kernel: [ 3584.690000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=26 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.695000] RTL871X: IsBtDisabled=0, IsBtControlLps=0
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=27 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=28 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=29 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=30 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=31 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.700000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=32 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.705000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3584.705000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=33 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.705000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=34 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.705000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3584.705000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=35 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.710000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=36 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.710000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3584.710000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=37 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.710000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=38 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3584.710000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: HwRateToMRate(): Non supported Rate [ff]!!!
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: HwRateToMRate(): Non supported Rate [ff]!!!
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: ==>rtw_ps_processor .fw_state(8)
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: ==>ips_enter cnts:1
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: nolinked power save enter
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: ===> rtw_ips_pwr_down...................
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: ====> rtw_ips_dev_unload...
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: rtl8723bs_hal_deinit: issue H2C to FW when entering IPS
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: rtl8723b_set_FwPwrModeInIPS_cmd()
+Feb 14 03:11:40 popcorn kernel: [ 3584.715000] RTL871X: rtl8723bs_hal_deinit  polling REG_HMETFR=0x8, cnt=1 
+Feb 14 03:11:40 popcorn kernel: [ 3584.745000] RTL871X: rtl8723bs_hal_deinit  polling REG_HMETFR=0x0, cnt=2 
+Feb 14 03:11:40 popcorn kernel: [ 3584.775000] RTL871X: rtl8723bs_hal_deinit: write rpwm=81
+Feb 14 03:11:40 popcorn kernel: [ 3584.780000] RTL871X: rtl8723bs_hal_deinit  polling 0x100=0xea, cnt=1 
+Feb 14 03:11:40 popcorn kernel: [ 3584.795000] RTL871X: polling done when entering IPS, check result : 0x100=0xea, cnt=1, MAC_1cc=0xea
+Feb 14 03:11:40 popcorn kernel: [ 3584.795000] RTL871X: <=== rtw_ips_pwr_down..................... in 80ms
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: =>cfg80211_rtw_connect(wlan0) - Start to Connection
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: privacy=1, key=  (null), key_len=0, key_idx=0, auth_type=0
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: ==>ips_leave cnts:1
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: ===>  rtw_ips_pwr_up..............
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: ===> ips_netdrv_open.........
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: rtl8723bs_hal_init: Leaving IPS in FWLPS state
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: rtl8723bs_hal_init: write rpwm=40
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: rtl8723bs_hal_init: polling cpwm ok when leaving IPS in FWLPS state, cpwm_orig=00, cpwm_now=80, 0x100=0x3f 
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: rtl8723b_set_FwPwrModeInIPS_cmd()
+Feb 14 03:11:40 popcorn kernel: [ 3585.050000] RTL871X: SetHwReg8723B: bMacPwrCtrlOn=1
+Feb 14 03:11:40 popcorn kernel: [ 3585.055000] RTL871X: ===>phy_SwChnl8723B: Channel = 1
+Feb 14 03:11:40 popcorn kernel: [ 3585.055000] RTL871X: #### hw_var_set_opmode() -5317 iface_type(0) mode = 2 ####
+Feb 14 03:11:40 popcorn kernel: [ 3585.055000] RTL871X: Using the default RF gain.
+Feb 14 03:11:40 popcorn kernel: [ 3585.055000] RTL871X: <===  rtw_ips_pwr_up.............. in 5ms
+Feb 14 03:11:40 popcorn kernel: [ 3585.055000] RTL871X: nolinked power save leave
+Feb 14 03:11:40 popcorn kernel: [ 3585.055000] RTL871X: ==> ips_leave.....LED(0x00e28282)...
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: ssid=ChinaNet-PWnG, len=13
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: bssid=dc:a3:33:8f:12:7a
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_cfg80211_set_wpa_version, wpa_version=2
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_cfg80211_set_auth_type, nl80211_auth_type=0
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: cfg80211_rtw_connect, ie_len=28
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: set wpa_ie(length:28):
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: 0x30 0x14 0x01 0x00 0x00 0x0f 0xac 0x02 
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: 0x01 0x00 0x00 0x0f 0xac 0x04 0x01 0x00 
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: 0x00 0x0f 0xac 0x02 0x00 0x00 0x3b 0x04 
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: 0x51 0x51 0x53 0x54 0x94 0xdb 0x36 0xbf 
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: got wpa2_ie, wpa2_ielen:20
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: SetHwReg8723B, 6456, RCR= 700060ca
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_cfg80211_set_cipher, ucast=1, cipher=0xfac04
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_cfg80211_set_cipher, ucast=0, cipher=0xfac02
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_cfg80211_set_key_mgt, key_mgt=0xfac02
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_set_802_11_connect(wlan0)  fw_state=0x00000008
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: [by_bssid:1][assoc_ssid:ChinaNet-PWnG][to_roam:0] new candidate: ChinaNet-PWnG(dc:a3:33:8f:12:7a, ch1) rssi:-52
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_select_and_join_from_scanned_queue: candidate: ChinaNet-PWnG(dc:a3:33:8f:12:7a, ch:1)
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: link to Realtek AP
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: [HT] HAL Support STBC = 0x01
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: [HT] Declare supporting RX STBC = 1
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: set ssid:dot11AuthAlgrthm=2, dot11PrivacyAlgrthm=4, dot118021XGrpPrivacy=2
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: <=cfg80211_rtw_connect, ret 0
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=39 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_chk_start_clnt_join(wlan0) req: 1,0,0
+Feb 14 03:11:40 popcorn kernel: [ 3585.060000] RTL871X: rtw_chk_start_clnt_join(wlan0) union: 1,0,0
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: ===>phy_SwChnl8723B: Channel = 1
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=40 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=41 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=42 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=43 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=44 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=45 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=46 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=47 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=48 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=49 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=50 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=51 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=52 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.075000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=53 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=54 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=55 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=56 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=57 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=58 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=59 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=60 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.080000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.085000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=61 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.085000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=62 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.085000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.085000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=63 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.085000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=64 len=7
+Feb 14 03:11:40 popcorn kernel: [ 3585.085000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: OnBeacon: beacon keys ready
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: link to Realtek AP
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: start auth
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: issue_auth
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: OnAuthClient
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: auth success, start assoc
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[0]=82
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[1]=84
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[2]=8B
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[3]=96
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[4]=0C
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[5]=12
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[6]=18
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[7]=24
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[8]=30
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[9]=48
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[10]=60
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: network.SupportedRates[11]=6C
+Feb 14 03:11:40 popcorn kernel: [ 3585.200000] RTL871X: bssrate_len = 12
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: OnAssocRsp
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: report_join_res(3)
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: rtw_joinbss_update_network
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: +rtw_update_ht_cap()
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: rtw_alloc_macid(wlan0) if1, hwaddr:dc:a3:33:8f:12:7a macid:0
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: rtw_joinbss_update_stainfo
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: supp_mcs_set = ff, 00, 00, rf_type=3, tx_ra_bitmap=00000000000fffff
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: rtw_get_tx_nss: 1 SS, rf_type=3
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: ### Set STA_(0) info ###
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: rtw_cfg80211_indicate_connect(wlan0)
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: rtw_cfg80211_indicate_connect(wlan0) BSS not found !!
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: assoc success
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Feb 14 03:11:40 popcorn kernel: [ 3585.215000] RTL871X: HW_VAR_BASIC_RATE: 0x15f -> 0x15f -> 0x15f
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: WMM(0): 0, a42b
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: WMM(1): 0, a44f
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: WMM(2): 0, 5e4322
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: WMM(3): 0, 2f3222
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: wmm_para_seq(0): 0
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: wmm_para_seq(1): 1
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: wmm_para_seq(2): 2
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: wmm_para_seq(3): 3
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: HTOnAssocRsp
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: ODM_Get_Rate_Bitmap ==> rssi_level:0x00, WirelessMode:0x0b, rate_bitmap:0x000ff005
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: UpdateHalRAMask8723B => mac_id:0, networkType:0x0b, mask:0x000fffff
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] 	 ==> rssi_level:0, rate_bitmap:0x000ff005
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: rtl8723b_set_FwMacIdConfig_cmd(): mac_id=0 raid=0x3 bw=0 mask=0xff005
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: UpdateHalRAMask8723B(): mac_id=0 raid=0x3 bw=0 mask=0xff005 init_rate=0x13
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: SetHwReg8723B(wlan0): [HW_VAR_MACID_WAKEUP] macid=0, org reg_0x4d4=0x00000000
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: +rtl8723b_download_rsvd_page(wlan0): iface_type=0 mstatus(1)
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: rtw_hal_set_fw_rsvd_page PageSize: 128, RsvdPageNUm: 8
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: LocPsPoll: 2
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: LocBTQosNull: 3
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: LocNullData: 4
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: LocQosNull: 5
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: rtw_hal_set_fw_rsvd_page PageNum(6), pktlen(706)
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: rtw_hal_set_fw_rsvd_page: Set RSVD page location to Fw ,TotalPacketLen(706), TotalPageNum(6)
+Feb 14 03:11:40 popcorn kernel: [ 3585.225000] RTL871X: RsvdPageLoc: ProbeRsp=0 PsPoll=2 Null=4 QoSNull=5 BTNull=3
+Feb 14 03:11:40 popcorn kernel: [ 3585.235000] RTL871X: recv eapol packet
+Feb 14 03:11:40 popcorn kernel: [ 3585.235000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=65 len=4
+Feb 14 03:11:40 popcorn kernel: [ 3585.245000] RTL871X: wlan0: 1 DL RSVD page success! DLBcnCount:1, poll:1
+Feb 14 03:11:40 popcorn kernel: [ 3585.245000] RTL871X: ===>phy_SwChnl8723B: Channel = 1
+Feb 14 03:11:40 popcorn kernel: [ 3585.245000] RTL871X: =>mlmeext_joinbss_event_callback - End to Connection without 4-way
+Feb 14 03:11:40 popcorn kernel: [ 3585.245000] RTL871X: phydm_rssi_report mac_id:0, mac:dc:a3:33:8f:12:7a, rssi:46
+Feb 14 03:11:40 popcorn kernel: [ 3585.245000] RTL871X: phydm_rssi_report RAINFO - TP:UL, TxBF:DIS, STBC:DIS, Noisy:True, Firstcont:True
+Feb 14 03:11:40 popcorn kernel: [ 3585.245000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=66 len=4
+Feb 14 03:11:40 popcorn kernel: [ 3585.250000] RTL871X: send eapol packet
+Feb 14 03:11:40 popcorn kernel: [ 3585.250000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x888E) rate=0x0
+Feb 14 03:11:40 popcorn kernel: [ 3585.255000] RTL871X: recv eapol packet
+Feb 14 03:11:40 popcorn kernel: [ 3585.255000] RTL871X: send eapol packet
+Feb 14 03:11:40 popcorn kernel: [ 3585.255000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x888E) rate=0x0
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: cfg80211_rtw_add_key(wlan0) adding key for dc:a3:33:8f:12:7a
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: cipher=0xfac04
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: key_len=0x10
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: seq_len=0x6
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: key_index=0
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: pairwise=1
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: rtw_cfg80211_set_encryption
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: rtw_cfg80211_set_encryption, : param->u.crypt.set_tx ==1 
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X:  ~~~~set sta key:unicastkey
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: rtw_cfg80211_set_encryption, ret=0
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: set pairwise key camid:4, addr:dc:a3:33:8f:12:7a, kid:0, type:AES
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: cfg80211_rtw_set_default_key(wlan0) key_index=0, unicast=1, multicast=0
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: cfg80211_rtw_add_key(wlan0) adding key for   (null)
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: cipher=0xfac02
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: key_len=0x20
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: seq_len=0x6
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: key_index=1
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: pairwise=0
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: rtw_cfg80211_set_encryption
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X:  ~~~~set sta key:groupkey
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: ==> rtw_set_key algorithm(2),keyid(1),key_mask(0)
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: rtw_cfg80211_set_encryption, ret=0
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: set group key camid:5, addr:dc:a3:33:8f:12:7a, kid:1, type:TKIP
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: SetHwReg8723B, 6449, RCR= 700060ce
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:40 popcorn kernel: [ 3585.260000] RTL871X: cfg80211_rtw_change_station(wlan0)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] RTL871X: _rtw_reg_notifier
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] RTL871X: _rtw_reg_notifier_apply: NL80211_REGDOM_SET_BY_COUNTRY_IE
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211: Regulatory domain changed to country: US
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:  DFS Master region: FCC
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 3000 mBm), (N/A)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (N/A)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (0 s)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2300 mBm), (0 s)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 3000 mBm), (N/A)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+Feb 14 03:11:41 popcorn kernel: [ 3585.365000] RTL871X: cfg80211_rtw_get_txpower
+Feb 14 03:11:41 popcorn kernel: [ 3585.490000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0800) rate=0x0
+Feb 14 03:11:41 popcorn kernel: [ 3585.710000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=67 len=4
+Feb 14 03:11:41 popcorn kernel: [ 3585.890000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:11:41 popcorn kernel: [ 3585.920000] RTL871X: OnAction_back
+Feb 14 03:11:41 popcorn kernel: [ 3585.920000] RTL871X: OnAction_back, action=0
+Feb 14 03:11:41 popcorn kernel: [ 3585.925000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=3 seq=68 len=8
+Feb 14 03:11:41 popcorn kernel: [ 3585.925000] RTL871X: issue_addba_rsp_wait_ack(wlan0) ra=dc:a3:33:8f:12:7a tid=0, acked, 1/3 in 5 ms
+Feb 14 03:11:41 popcorn kernel: [ 3586.220000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=69 len=4
+Feb 14 03:11:42 popcorn kernel: [ 3586.425000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=70 len=4
+Feb 14 03:11:42 popcorn kernel: [ 3587.060000] RTL871X: IsBtDisabled=0, IsBtControlLps=0
+Feb 14 03:11:42 popcorn kernel: [ 3587.060000] RTL871X: ODM_Get_Rate_Bitmap ==> rssi_level:0x02, WirelessMode:0x0b, rate_bitmap:0x000ff000
+Feb 14 03:11:42 popcorn kernel: [ 3587.060000] RTL871X: UpdateHalRAMask8723B => mac_id:0, networkType:0x0b, mask:0x000fffff
+Feb 14 03:11:42 popcorn kernel: [ 3587.060000] 	 ==> rssi_level:2, rate_bitmap:0x000ff000
+Feb 14 03:11:42 popcorn kernel: [ 3587.060000] RTL871X: rtl8723b_set_FwMacIdConfig_cmd(): mac_id=0 raid=0x3 bw=0 mask=0xff000
+Feb 14 03:11:42 popcorn kernel: [ 3587.060000] RTL871X: UpdateHalRAMask8723B(): mac_id=0 raid=0x3 bw=0 mask=0xff000 init_rate=0x13
+Feb 14 03:11:42 popcorn kernel: [ 3587.060000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=71 len=4
+Feb 14 03:11:43 popcorn kernel: [ 3587.450000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=72 len=4
+Feb 14 03:11:43 popcorn kernel: [ 3588.170000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:11:43 popcorn kernel: [ 3588.270000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=73 len=4
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=74 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=75 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=76 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=77 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=78 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.065000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:44 popcorn kernel: [ 3589.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=79 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.070000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=80 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.070000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=81 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=82 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=83 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=84 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=85 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=86 len=7
+Feb 14 03:11:44 popcorn kernel: [ 3589.075000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:46 popcorn kernel: [ 3591.070000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:47 popcorn kernel: [ 3592.170000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:11:48 popcorn kernel: [ 3592.880000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=87 len=4
+Feb 14 03:11:48 popcorn kernel: [ 3593.075000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=88 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=89 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=90 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=91 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=92 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:50 popcorn kernel: [ 3595.080000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=93 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.085000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=94 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.085000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=95 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=96 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=97 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=98 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=99 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=100 len=7
+Feb 14 03:11:50 popcorn kernel: [ 3595.090000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:11:51 popcorn kernel: [ 3596.160000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:11:52 popcorn kernel: [ 3597.085000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:52 popcorn kernel: [ 3597.085000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Feb 14 03:11:52 popcorn kernel: [ 3597.085000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Feb 14 03:11:54 popcorn kernel: [ 3599.090000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:54 popcorn kernel: [ 3599.090000] RTL871X: CurIGValue=57, EntryMinUndecoratedSmoothedPWDB = 47
+Feb 14 03:11:54 popcorn kernel: [ 3599.090000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Feb 14 03:11:54 popcorn kernel: [ 3599.090000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=47
+Feb 14 03:11:55 popcorn kernel: [ 3600.160000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:11:55 popcorn kernel: [ 3600.165000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Feb 14 03:11:56 popcorn kernel: [ 3601.095000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:56 popcorn kernel: [ 3601.095000] RTL871X: CurIGValue=47, EntryMinUndecoratedSmoothedPWDB = 52
+Feb 14 03:11:58 popcorn kernel: [ 3603.100000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:11:58 popcorn kernel: [ 3603.100000] RTL871X: CurIGValue=47, EntryMinUndecoratedSmoothedPWDB = 48
+Feb 14 03:11:59 popcorn kernel: [ 3604.150000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:11:59 popcorn kernel: [ 3604.150000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Feb 14 03:12:00 popcorn kernel: [ 3605.105000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:00 popcorn kernel: [ 3605.105000] RTL871X: CurIGValue=47, EntryMinUndecoratedSmoothedPWDB = 50
+Feb 14 03:12:02 popcorn kernel: [ 3607.110000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:02 popcorn kernel: [ 3607.110000] RTL871X: CurIGValue=47, EntryMinUndecoratedSmoothedPWDB = 52
+Feb 14 03:12:03 popcorn kernel: [ 3607.420000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Feb 14 03:12:03 popcorn kernel: [ 3608.145000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:12:03 popcorn kernel: [ 3608.145000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Feb 14 03:12:04 popcorn kernel: [ 3609.115000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:04 popcorn kernel: [ 3609.115000] RTL871X: CurIGValue=47, EntryMinUndecoratedSmoothedPWDB = 52
+Feb 14 03:12:06 popcorn kernel: [ 3610.985000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Feb 14 03:12:06 popcorn kernel: [ 3611.005000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=101 len=4
+Feb 14 03:12:06 popcorn kernel: [ 3611.005000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Feb 14 03:12:06 popcorn kernel: [ 3611.120000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:06 popcorn kernel: [ 3611.120000] RTL871X: CurIGValue=47, EntryMinUndecoratedSmoothedPWDB = 50
+Feb 14 03:12:07 popcorn kernel: [ 3611.430000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Feb 14 03:12:07 popcorn kernel: [ 3611.430000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_LEAVE
+Feb 14 03:12:07 popcorn kernel: [ 3611.430000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Feb 14 03:12:07 popcorn kernel: [ 3612.135000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:12:08 popcorn kernel: [ 3613.125000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:10 popcorn kernel: [ 3615.130000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:10 popcorn kernel: [ 3615.130000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Feb 14 03:12:10 popcorn kernel: [ 3615.130000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Feb 14 03:12:10 popcorn kernel: [ 3615.130000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=102 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.135000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Feb 14 03:12:10 popcorn kernel: [ 3615.135000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=103 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.135000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=104 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.135000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:12:10 popcorn kernel: [ 3615.135000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=105 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.135000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=106 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.135000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:12:10 popcorn kernel: [ 3615.140000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=107 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.140000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=108 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.140000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=109 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=110 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=111 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=112 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=113 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=114 len=7
+Feb 14 03:12:10 popcorn kernel: [ 3615.145000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Feb 14 03:12:11 popcorn kernel: [ 3616.135000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:12:11 popcorn kernel: [ 3616.135000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Feb 14 03:12:12 popcorn kernel: [ 3616.670000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Feb 14 03:12:12 popcorn kernel: [ 3617.135000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:12 popcorn kernel: [ 3617.135000] RTL871X: CurIGValue=51, EntryMinUndecoratedSmoothedPWDB = 45
+Feb 14 03:12:12 popcorn kernel: [ 3617.135000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Feb 14 03:12:12 popcorn kernel: [ 3617.135000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=45
+Feb 14 03:12:13 popcorn kernel: [ 3617.765000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Feb 14 03:12:14 popcorn kernel: [ 3619.140000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:14 popcorn kernel: [ 3619.140000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 48
+Feb 14 03:12:15 popcorn kernel: [ 3619.615000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Feb 14 03:12:15 popcorn kernel: [ 3620.125000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Feb 14 03:12:15 popcorn kernel: [ 3620.125000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Feb 14 03:12:15 popcorn kernel: [ 3620.225000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Feb 14 03:12:15 popcorn kernel: [ 3620.225000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Feb 14 03:12:15 popcorn kernel: [ 3620.225000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Feb 14 03:12:16 popcorn kernel: [ 3621.145000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Feb 14 03:12:17 popcorn kernel: [ 3621.550000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=115 len=4
+Jul 18 07:38:15 popcorn kernel: [ 3623.150000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 18 07:38:15 popcorn kernel: [ 3623.150000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 18 07:38:15 popcorn kernel: [ 3623.150000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 18 07:38:16 popcorn kernel: [ 3624.120000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 18 07:38:16 popcorn kernel: [ 3624.120000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 18 07:38:16 popcorn kernel: [ 3624.215000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=116 len=4
+Jul 18 07:38:16 popcorn kernel: [ 3624.215000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f

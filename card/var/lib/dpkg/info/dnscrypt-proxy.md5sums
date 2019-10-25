@@ -1,0 +1,13 @@
+3e65a5ee53f42ba463c574276d10c995  lib/systemd/system/dnscrypt-proxy-resolvconf.service
+308ed67d2d8c43c4a8870a03611fa641  lib/systemd/system/dnscrypt-proxy.service
+ecce1935bdfd9af742f405d17a61f77a  lib/systemd/system/dnscrypt-proxy.socket
+2256c24a04b3dea5216d57ddd6dd09d6  usr/sbin/dnscrypt-proxy
+4132104dabd0203e6bfdafbe5582aac2  usr/share/doc/dnscrypt-proxy/README.md
+b64379c808a914b62253f9c37cdf9d7a  usr/share/doc/dnscrypt-proxy/changelog.Debian.armhf.gz
+ed16065a2d5de59b459416a07a4833fd  usr/share/doc/dnscrypt-proxy/changelog.Debian.gz
+df85816fffa1ba44af6158c6a41329d7  usr/share/doc/dnscrypt-proxy/changelog.gz
+fd6092cb53da3cded3bf3168373c035a  usr/share/doc/dnscrypt-proxy/copyright
+4210edf26da6679df597233e2e1b27f9  usr/share/doc/dnscrypt-proxy/examples/example-blacklist.txt
+7726f4af1b6f79b4b9d5b86492c95e61  usr/share/doc/dnscrypt-proxy/examples/example-cloaking-rules.txt
+5926069d4845e187f80c460534fddcbf  usr/share/doc/dnscrypt-proxy/examples/example-dnscrypt-proxy.toml
+b77fbd03afe178111f56e7e0a0ccf57b  usr/share/doc/dnscrypt-proxy/examples/example-forwarding-rules.txt

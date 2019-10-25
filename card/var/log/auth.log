@@ -1,0 +1,36 @@
+Jul 18 08:17:01 popcorn CRON[798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 08:17:01 popcorn CRON[798]: pam_unix(cron:session): session closed for user root
+Jul 18 09:17:01 popcorn CRON[810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 09:17:01 popcorn CRON[810]: pam_unix(cron:session): session closed for user root
+Jul 18 10:17:01 popcorn CRON[822]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 10:17:01 popcorn CRON[822]: pam_unix(cron:session): session closed for user root
+Jul 18 11:17:01 popcorn CRON[834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 11:17:01 popcorn CRON[834]: pam_unix(cron:session): session closed for user root
+Jul 18 12:17:01 popcorn CRON[845]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 12:17:01 popcorn CRON[845]: pam_unix(cron:session): session closed for user root
+Jul 18 13:17:01 popcorn CRON[857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 13:17:01 popcorn CRON[857]: pam_unix(cron:session): session closed for user root
+Jul 18 14:17:01 popcorn CRON[869]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 14:17:01 popcorn CRON[869]: pam_unix(cron:session): session closed for user root
+Jul 18 15:17:01 popcorn CRON[881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 15:17:01 popcorn CRON[881]: pam_unix(cron:session): session closed for user root
+Jul 18 16:17:01 popcorn CRON[894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 16:17:01 popcorn CRON[894]: pam_unix(cron:session): session closed for user root
+Jul 18 17:17:01 popcorn CRON[905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 17:17:01 popcorn CRON[905]: pam_unix(cron:session): session closed for user root
+Jul 18 18:17:01 popcorn CRON[938]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 18:17:01 popcorn CRON[938]: pam_unix(cron:session): session closed for user root
+Jul 18 19:17:02 popcorn CRON[950]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 19:17:02 popcorn CRON[950]: pam_unix(cron:session): session closed for user root
+Jul 18 20:17:01 popcorn CRON[962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 20:17:01 popcorn CRON[962]: pam_unix(cron:session): session closed for user root
+Jul 18 21:17:01 popcorn CRON[973]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 21:17:01 popcorn CRON[973]: pam_unix(cron:session): session closed for user root
+Jul 18 22:17:01 popcorn CRON[1045]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 22:17:01 popcorn CRON[1045]: pam_unix(cron:session): session closed for user root
+Jul 18 23:17:01 popcorn CRON[1057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 18 23:17:01 popcorn CRON[1057]: pam_unix(cron:session): session closed for user root
+Jul 19 00:03:21 popcorn sshd[1096]: Accepted password for root from 192.168.1.9 port 41716 ssh2
+Jul 19 00:03:21 popcorn sshd[1096]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 19 00:03:21 popcorn systemd-logind[218]: New session c2 of user root.
+Jul 19 00:04:20 popcorn sshd[1096]: Exiting on signal 15

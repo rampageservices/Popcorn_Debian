@@ -1,0 +1,43 @@
+Package: gpac
+Description-md5: 8d8951e01429e4e13fbb3580cb366a68
+Description-en: GPAC Project on Advanced Content - utilities
+ GPAC stands for GPAC Project on Advanced Content (a recursive acronym). It is
+ an Open Source multimedia framework for research and academic purposes. The
+ project covers different aspects of multimedia, with a focus on presentation
+ technologies (graphics, animation and interactivity).
+ .
+ This package contains the following utilities:
+   - MP4Client (content packaging)
+   - MP4Box
+
+Package: gpac-modules-base
+Description-md5: feaa7e89022a9c12da696d9dc0eef201
+Description-en: GPAC Project on Advanced Content - modules
+ GPAC stands for GPAC Project on Advanced Content (a recursive acronym). It is
+ an Open Source multimedia framework for research and academic purposes. The
+ project covers different aspects of multimedia, with a focus on presentation
+ technologies (graphics, animation and interactivity).
+ .
+ This package contains the GPAC modules.
+
+Package: libgpac-dev
+Description-md5: 316544dd0e1538183bd40ed9a7866f0c
+Description-en: GPAC Project on Advanced Content - development files
+ GPAC stands for GPAC Project on Advanced Content (a recursive acronym). It is
+ an Open Source multimedia framework for research and academic purposes. The
+ project covers different aspects of multimedia, with a focus on presentation
+ technologies (graphics, animation and interactivity).
+ .
+ This package contains files that are used for application development.
+
+Package: libgpac4
+Description-md5: e13d47211be1f8e7b4e3fbd270291eaa
+Description-en: GPAC Project on Advanced Content - shared libraries
+ GPAC stands for GPAC Project on Advanced Content (a recursive acronym). It is
+ an Open Source multimedia framework for research and academic purposes. The
+ project covers different aspects of multimedia, with a focus on presentation
+ technologies (graphics, animation and interactivity).
+ .
+ This package contains the shared libraries used at runtime in depending
+ packages.
+

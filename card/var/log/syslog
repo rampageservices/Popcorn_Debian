@@ -1,0 +1,685 @@
+Jul 19 00:00:29 popcorn rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="225" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jul 19 00:00:29 popcorn systemd[1]: logrotate.service: Succeeded.
+Jul 19 00:00:29 popcorn systemd[1]: Started Rotate log files.
+Jul 19 00:00:29 popcorn kernel: [62557.385000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:29 popcorn kernel: [62557.390000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:00:30 popcorn systemd[1]: man-db.service: Succeeded.
+Jul 19 00:00:30 popcorn systemd[1]: Started Daily man-db regeneration.
+Jul 19 00:00:30 popcorn kernel: [62558.130000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:30 popcorn kernel: [62558.130000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 48
+Jul 19 00:00:32 popcorn kernel: [62560.135000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:32 popcorn kernel: [62560.135000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:00:33 popcorn kernel: [62560.965000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:00:33 popcorn kernel: [62561.380000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:33 popcorn kernel: [62561.380000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:00:33 popcorn kernel: [62561.470000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=54 len=4
+Jul 19 00:00:33 popcorn kernel: [62561.475000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:00:34 popcorn kernel: [62562.140000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:34 popcorn kernel: [62562.140000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:00:36 popcorn kernel: [62564.145000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:36 popcorn kernel: [62564.145000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:00:37 popcorn kernel: [62565.375000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:37 popcorn kernel: [62565.375000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:00:38 popcorn kernel: [62566.150000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:38 popcorn kernel: [62566.150000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:00:40 popcorn kernel: [62568.155000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:40 popcorn kernel: [62568.155000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:00:41 popcorn kernel: [62569.365000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:41 popcorn kernel: [62569.365000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:00:41 popcorn kernel: [62569.460000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=55 len=4
+Jul 19 00:00:41 popcorn kernel: [62569.460000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:00:42 popcorn kernel: [62570.160000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:42 popcorn kernel: [62570.160000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:00:43 popcorn kernel: [62571.510000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:00:44 popcorn kernel: [62572.165000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:44 popcorn kernel: [62572.165000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:00:45 popcorn kernel: [62573.360000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:45 popcorn kernel: [62573.360000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:00:46 popcorn kernel: [62574.170000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:46 popcorn kernel: [62574.170000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:00:48 popcorn kernel: [62576.175000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:48 popcorn kernel: [62576.175000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:00:49 popcorn kernel: [62577.350000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:49 popcorn kernel: [62577.355000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:00:50 popcorn kernel: [62577.975000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:00:50 popcorn kernel: [62578.180000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:50 popcorn kernel: [62578.180000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:00:50 popcorn kernel: [62578.180000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:00:50 popcorn kernel: [62578.180000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=56 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=57 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=58 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=59 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=60 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:00:52 popcorn kernel: [62580.185000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=61 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.190000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=62 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.190000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=63 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=64 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=65 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=66 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=67 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=68 len=7
+Jul 19 00:00:52 popcorn kernel: [62580.195000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:00:53 popcorn kernel: [62581.350000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:54 popcorn kernel: [62581.855000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:00:54 popcorn kernel: [62582.190000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:54 popcorn kernel: [62582.190000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:00:54 popcorn kernel: [62582.190000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:00:56 popcorn kernel: [62584.195000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:56 popcorn kernel: [62584.195000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:00:57 popcorn kernel: [62585.345000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:00:57 popcorn kernel: [62585.345000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:00:58 popcorn kernel: [62586.200000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:00:58 popcorn kernel: [62586.200000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:01:00 popcorn kernel: [62588.205000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:00 popcorn kernel: [62588.205000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:01:01 popcorn kernel: [62589.335000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:01 popcorn kernel: [62589.335000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:02 popcorn kernel: [62590.210000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:02 popcorn kernel: [62590.210000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:01:04 popcorn kernel: [62592.215000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:04 popcorn kernel: [62592.215000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:01:04 popcorn kernel: [62592.300000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:01:05 popcorn kernel: [62593.330000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:05 popcorn kernel: [62593.330000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:05 popcorn kernel: [62593.420000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=69 len=4
+Jul 19 00:01:05 popcorn kernel: [62593.425000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:01:06 popcorn kernel: [62594.220000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:06 popcorn kernel: [62594.220000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 48
+Jul 19 00:01:08 popcorn kernel: [62596.225000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:08 popcorn kernel: [62596.225000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:01:09 popcorn kernel: [62597.320000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:09 popcorn kernel: [62597.325000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:10 popcorn kernel: [62598.230000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:10 popcorn kernel: [62598.230000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:01:12 popcorn kernel: [62600.235000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:12 popcorn kernel: [62600.235000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:01:13 popcorn kernel: [62601.315000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:13 popcorn kernel: [62601.315000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:13 popcorn kernel: [62601.410000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=70 len=4
+Jul 19 00:01:13 popcorn kernel: [62601.410000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:01:14 popcorn kernel: [62602.240000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:14 popcorn kernel: [62602.240000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 48
+Jul 19 00:01:14 popcorn kernel: [62602.745000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:01:16 popcorn kernel: [62604.245000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:16 popcorn kernel: [62604.245000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 48
+Jul 19 00:01:17 popcorn kernel: [62605.310000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:17 popcorn kernel: [62605.315000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:18 popcorn kernel: [62606.250000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:18 popcorn kernel: [62606.250000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:01:20 popcorn kernel: [62607.975000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:01:20 popcorn kernel: [62608.255000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:20 popcorn kernel: [62608.255000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:20 popcorn kernel: [62608.255000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:01:20 popcorn kernel: [62608.255000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:01:21 popcorn kernel: [62609.300000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:21 popcorn kernel: [62609.400000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=71 len=4
+Jul 19 00:01:22 popcorn kernel: [62610.260000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:22 popcorn kernel: [62610.260000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:01:22 popcorn kernel: [62610.260000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:01:24 popcorn kernel: [62612.265000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:24 popcorn kernel: [62612.265000] RTL871X: CurIGValue=53, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:01:24 popcorn kernel: [62612.265000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:01:24 popcorn kernel: [62612.265000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=45
+Jul 19 00:01:25 popcorn kernel: [62613.085000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:01:25 popcorn kernel: [62613.395000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:25 popcorn kernel: [62613.400000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:26 popcorn kernel: [62614.270000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:26 popcorn kernel: [62614.270000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:01:28 popcorn kernel: [62616.275000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:28 popcorn kernel: [62616.275000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:01:29 popcorn kernel: [62617.290000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:29 popcorn kernel: [62617.295000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:30 popcorn kernel: [62618.280000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:30 popcorn kernel: [62618.280000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:01:32 popcorn kernel: [62620.285000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:32 popcorn kernel: [62620.285000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:01:33 popcorn kernel: [62621.385000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:33 popcorn kernel: [62621.390000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:33 popcorn kernel: [62621.480000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=72 len=4
+Jul 19 00:01:33 popcorn kernel: [62621.485000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:01:34 popcorn kernel: [62622.290000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:34 popcorn kernel: [62622.290000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:01:35 popcorn kernel: [62623.530000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:01:36 popcorn kernel: [62624.295000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:36 popcorn kernel: [62624.295000] RTL871X: CurIGValue=45, EntryMinUndecoratedSmoothedPWDB = 51
+Jul 19 00:01:36 popcorn kernel: [62624.295000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:36 popcorn kernel: [62624.295000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=51
+Jul 19 00:01:37 popcorn kernel: [62625.380000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:37 popcorn kernel: [62625.380000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:38 popcorn kernel: [62626.300000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:38 popcorn kernel: [62626.300000] RTL871X: CurIGValue=51, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:01:40 popcorn kernel: [62628.305000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:40 popcorn kernel: [62628.305000] RTL871X: CurIGValue=51, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:01:41 popcorn kernel: [62629.375000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:41 popcorn kernel: [62629.380000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:42 popcorn kernel: [62630.310000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:42 popcorn kernel: [62630.310000] RTL871X: CurIGValue=51, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:01:44 popcorn kernel: [62632.315000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:44 popcorn kernel: [62632.315000] RTL871X: CurIGValue=51, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:01:45 popcorn kernel: [62633.370000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:45 popcorn kernel: [62633.370000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:45 popcorn kernel: [62633.465000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=73 len=4
+Jul 19 00:01:45 popcorn kernel: [62633.465000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:01:46 popcorn kernel: [62633.875000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:01:46 popcorn kernel: [62634.320000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:46 popcorn kernel: [62634.320000] RTL871X: CurIGValue=51, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:01:48 popcorn kernel: [62636.325000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:48 popcorn kernel: [62636.325000] RTL871X: CurIGValue=51, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:01:49 popcorn kernel: [62637.360000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:49 popcorn kernel: [62637.365000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:50 popcorn kernel: [62638.080000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:01:50 popcorn kernel: [62638.330000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:50 popcorn kernel: [62638.330000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:50 popcorn kernel: [62638.330000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:01:50 popcorn kernel: [62638.330000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:01:52 popcorn kernel: [62640.335000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:52 popcorn kernel: [62640.335000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:01:52 popcorn kernel: [62640.335000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:01:52 popcorn kernel: [62640.335000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=74 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.340000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:01:52 popcorn kernel: [62640.340000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=75 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.340000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=76 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.340000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:01:52 popcorn kernel: [62640.340000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=77 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.340000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=78 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.340000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:01:52 popcorn kernel: [62640.345000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=79 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.345000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=80 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.345000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=81 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=82 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=83 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=84 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=85 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=86 len=7
+Jul 19 00:01:52 popcorn kernel: [62640.350000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:01:53 popcorn kernel: [62641.355000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:53 popcorn kernel: [62641.360000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:54 popcorn kernel: [62642.340000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:54 popcorn kernel: [62642.340000] RTL871X: CurIGValue=54, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:01:54 popcorn kernel: [62642.340000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:01:54 popcorn kernel: [62642.340000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=44
+Jul 19 00:01:56 popcorn kernel: [62644.220000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:01:56 popcorn kernel: [62644.345000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:56 popcorn kernel: [62644.345000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 43
+Jul 19 00:01:57 popcorn kernel: [62645.350000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:01:57 popcorn kernel: [62645.350000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:01:57 popcorn kernel: [62645.445000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=87 len=4
+Jul 19 00:01:57 popcorn kernel: [62645.445000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:01:58 popcorn kernel: [62646.350000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:01:58 popcorn kernel: [62646.350000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 43
+Jul 19 00:02:00 popcorn kernel: [62648.355000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:00 popcorn kernel: [62648.355000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 43
+Jul 19 00:02:01 popcorn kernel: [62649.345000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:01 popcorn kernel: [62649.345000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:02:02 popcorn kernel: [62650.360000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:02 popcorn kernel: [62650.360000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 43
+Jul 19 00:02:04 popcorn kernel: [62652.365000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:04 popcorn kernel: [62652.365000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 43
+Jul 19 00:02:05 popcorn kernel: [62653.340000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:05 popcorn kernel: [62653.340000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:02:05 popcorn kernel: [62653.435000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=88 len=4
+Jul 19 00:02:05 popcorn kernel: [62653.435000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:02:06 popcorn kernel: [62654.370000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:06 popcorn kernel: [62654.370000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:02:06 popcorn kernel: [62654.560000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:02:08 popcorn kernel: [62656.375000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:08 popcorn kernel: [62656.375000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:02:09 popcorn kernel: [62657.335000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:09 popcorn kernel: [62657.340000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:02:10 popcorn kernel: [62658.380000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:10 popcorn kernel: [62658.380000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:02:12 popcorn kernel: [62660.385000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:12 popcorn kernel: [62660.385000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:02:13 popcorn kernel: [62661.330000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:13 popcorn kernel: [62661.330000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:02:14 popcorn kernel: [62662.390000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:14 popcorn kernel: [62662.390000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 48
+Jul 19 00:02:16 popcorn kernel: [62664.395000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:16 popcorn kernel: [62664.395000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:02:16 popcorn kernel: [62664.395000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:02:16 popcorn kernel: [62664.395000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:02:17 popcorn kernel: [62665.110000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:02:17 popcorn kernel: [62665.320000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:17 popcorn kernel: [62665.415000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=89 len=4
+Jul 19 00:02:18 popcorn kernel: [62666.400000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:18 popcorn kernel: [62666.400000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:02:18 popcorn kernel: [62666.400000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:02:20 popcorn kernel: [62668.195000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:02:20 popcorn kernel: [62668.220000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:02:20 popcorn kernel: [62668.220000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Jul 19 00:02:20 popcorn kernel: [62668.220000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:02:20 popcorn kernel: [62668.405000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:21 popcorn kernel: [62669.100000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=90 len=4
+Jul 19 00:02:21 popcorn kernel: [62669.315000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:22 popcorn kernel: [62670.225000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=91 len=4
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=92 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=93 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=94 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=95 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=96 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:22 popcorn kernel: [62670.410000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=97 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.415000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=98 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.415000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=99 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=100 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=101 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=102 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=103 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=104 len=7
+Jul 19 00:02:22 popcorn kernel: [62670.420000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:24 popcorn kernel: [62672.415000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:24 popcorn kernel: [62672.415000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:02:24 popcorn kernel: [62672.415000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:02:25 popcorn kernel: [62673.310000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:25 popcorn kernel: [62673.310000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:02:26 popcorn kernel: [62674.420000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:26 popcorn kernel: [62674.420000] RTL871X: CurIGValue=53, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:02:26 popcorn kernel: [62674.420000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:02:26 popcorn kernel: [62674.420000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=44
+Jul 19 00:02:27 popcorn kernel: [62675.455000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:02:28 popcorn kernel: [62676.425000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:28 popcorn kernel: [62676.425000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:02:29 popcorn kernel: [62677.300000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:29 popcorn kernel: [62677.305000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:02:30 popcorn kernel: [62678.430000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:30 popcorn kernel: [62678.430000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:02:32 popcorn kernel: [62680.435000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:32 popcorn kernel: [62680.435000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:02:33 popcorn kernel: [62681.395000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:33 popcorn kernel: [62681.395000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:02:34 popcorn kernel: [62682.440000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:34 popcorn kernel: [62682.440000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:02:36 popcorn kernel: [62684.445000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:36 popcorn kernel: [62684.445000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:02:37 popcorn kernel: [62685.390000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:37 popcorn kernel: [62685.395000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:02:37 popcorn kernel: [62685.795000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:02:38 popcorn kernel: [62686.450000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:38 popcorn kernel: [62686.450000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:02:40 popcorn kernel: [62688.455000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:40 popcorn kernel: [62688.455000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:02:40 popcorn kernel: [62688.455000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:02:40 popcorn kernel: [62688.455000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=50
+Jul 19 00:02:41 popcorn kernel: [62689.385000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:41 popcorn kernel: [62689.390000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:02:41 popcorn kernel: [62689.590000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:02:41 popcorn kernel: [62689.590000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Jul 19 00:02:41 popcorn kernel: [62689.590000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:02:42 popcorn kernel: [62690.460000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:44 popcorn kernel: [62692.465000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:44 popcorn kernel: [62692.465000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:02:44 popcorn kernel: [62692.465000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:02:44 popcorn kernel: [62692.465000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=105 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.470000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:02:44 popcorn kernel: [62692.470000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=106 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.470000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=107 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.470000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:44 popcorn kernel: [62692.470000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=108 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.470000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=109 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.470000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:44 popcorn kernel: [62692.475000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=110 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.475000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=111 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.475000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=112 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=113 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=114 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=115 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=116 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=117 len=7
+Jul 19 00:02:44 popcorn kernel: [62692.480000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:45 popcorn kernel: [62693.380000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:45 popcorn kernel: [62693.380000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:02:46 popcorn kernel: [62694.470000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:46 popcorn kernel: [62694.470000] RTL871X: CurIGValue=53, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:02:46 popcorn kernel: [62694.470000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:02:46 popcorn kernel: [62694.470000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=44
+Jul 19 00:02:48 popcorn kernel: [62696.240000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:02:48 popcorn kernel: [62696.475000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:48 popcorn kernel: [62696.475000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:02:48 popcorn kernel: [62696.475000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:02:48 popcorn kernel: [62696.475000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:02:49 popcorn kernel: [62697.375000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:49 popcorn kernel: [62697.470000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=118 len=4
+Jul 19 00:02:50 popcorn kernel: [62698.480000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:52 popcorn kernel: [62700.485000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:52 popcorn kernel: [62700.485000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:02:52 popcorn kernel: [62700.485000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:02:53 popcorn kernel: [62701.365000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:53 popcorn kernel: [62701.370000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:02:54 popcorn kernel: [62702.490000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:54 popcorn kernel: [62702.490000] RTL871X: CurIGValue=56, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:02:54 popcorn kernel: [62702.490000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:02:54 popcorn kernel: [62702.490000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=47
+Jul 19 00:02:55 popcorn kernel: [62703.720000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:02:55 popcorn kernel: [62703.720000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Jul 19 00:02:55 popcorn kernel: [62703.720000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=119 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=120 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=121 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=122 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=123 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:56 popcorn kernel: [62704.495000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=124 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.500000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=125 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.500000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=126 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=127 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=128 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=129 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=130 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=131 len=7
+Jul 19 00:02:56 popcorn kernel: [62704.505000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:02:57 popcorn kernel: [62705.360000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:02:58 popcorn kernel: [62706.500000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:02:58 popcorn kernel: [62706.500000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:02:58 popcorn kernel: [62706.500000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:02:58 popcorn kernel: [62706.685000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:03:00 popcorn kernel: [62708.505000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:00 popcorn kernel: [62708.505000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:03:00 popcorn kernel: [62708.505000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:03:00 popcorn kernel: [62708.505000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:03:01 popcorn kernel: [62709.355000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:01 popcorn kernel: [62709.450000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=132 len=4
+Jul 19 00:03:02 popcorn kernel: [62710.510000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:02 popcorn kernel: [62710.510000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:03:02 popcorn kernel: [62710.510000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:03:04 popcorn kernel: [62712.515000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:04 popcorn kernel: [62712.515000] RTL871X: CurIGValue=53, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:03:04 popcorn kernel: [62712.515000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:04 popcorn kernel: [62712.515000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=44
+Jul 19 00:03:05 popcorn kernel: [62713.350000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:05 popcorn kernel: [62713.350000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:03:06 popcorn kernel: [62714.520000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:06 popcorn kernel: [62714.520000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:03:08 popcorn kernel: [62716.525000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:08 popcorn kernel: [62716.525000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:08 popcorn kernel: [62716.525000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:03:08 popcorn kernel: [62716.525000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:03:09 popcorn kernel: [62717.030000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:03:09 popcorn kernel: [62717.340000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:09 popcorn kernel: [62717.435000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=133 len=4
+Jul 19 00:03:10 popcorn kernel: [62718.530000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:10 popcorn kernel: [62718.530000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:03:10 popcorn kernel: [62718.530000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:03:10 popcorn kernel: [62718.530000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=134 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.535000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:03:10 popcorn kernel: [62718.535000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=135 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.535000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=136 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.535000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:10 popcorn kernel: [62718.535000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=137 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.535000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=138 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.535000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:10 popcorn kernel: [62718.540000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=139 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.540000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=140 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.540000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=141 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=142 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=143 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=144 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=145 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=146 len=7
+Jul 19 00:03:10 popcorn kernel: [62718.545000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:12 popcorn kernel: [62720.535000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:12 popcorn kernel: [62720.535000] RTL871X: CurIGValue=55, EntryMinUndecoratedSmoothedPWDB = 44
+Jul 19 00:03:12 popcorn kernel: [62720.535000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:12 popcorn kernel: [62720.535000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=44
+Jul 19 00:03:13 popcorn kernel: [62721.335000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:13 popcorn kernel: [62721.340000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:03:14 popcorn kernel: [62722.540000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:14 popcorn kernel: [62722.540000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:03:16 popcorn kernel: [62724.545000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:16 popcorn kernel: [62724.545000] RTL871X: CurIGValue=44, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:03:17 popcorn kernel: [62725.635000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:17 popcorn kernel: [62725.635000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:17 popcorn kernel: [62725.640000] RTL871X: OnAction_back
+Jul 19 00:03:17 popcorn kernel: [62725.640000] RTL871X: OnAction_back, action=0
+Jul 19 00:03:17 popcorn kernel: [62725.645000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:03:17 popcorn kernel: [62725.645000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=3 seq=147 len=8
+Jul 19 00:03:17 popcorn kernel: [62725.645000] RTL871X: issue_addba_rsp_wait_ack(wlan0) ra=dc:a3:33:8f:12:7a tid=7, acked, 1/3 in 0 ms
+Jul 19 00:03:17 popcorn kernel: [62725.650000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:03:17 popcorn kernel: [62725.715000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:03:17 popcorn kernel: [62725.725000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:03:17 popcorn kernel: [62725.725000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Jul 19 00:03:17 popcorn kernel: [62725.725000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:03:17 popcorn kernel: [62725.730000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=148 len=4
+Jul 19 00:03:18 popcorn kernel: [62726.550000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:19 popcorn kernel: [62727.370000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=149 len=4
+Jul 19 00:03:19 popcorn kernel: [62727.580000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:03:20 popcorn kernel: [62728.555000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:21 popcorn kernel: [62729.325000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:21 popcorn systemd[1]: Started Session c2 of user root.
+Jul 19 00:03:21 popcorn kernel: [62729.755000] RTL871X: OnAction_back
+Jul 19 00:03:21 popcorn kernel: [62729.755000] RTL871X: OnAction_back, action=0
+Jul 19 00:03:21 popcorn kernel: [62729.755000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=3 seq=150 len=8
+Jul 19 00:03:21 popcorn kernel: [62729.755000] RTL871X: issue_addba_rsp_wait_ack(wlan0) ra=dc:a3:33:8f:12:7a tid=2, acked, 1/3 in 0 ms
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=151 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=152 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=153 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=154 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=155 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:22 popcorn kernel: [62730.560000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=156 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.565000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=157 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.565000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=158 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=159 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=160 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=161 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=162 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=163 len=7
+Jul 19 00:03:22 popcorn kernel: [62730.570000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:22 popcorn kernel: [62730.645000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=164 len=4
+Jul 19 00:03:24 popcorn kernel: [62732.565000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:26 popcorn kernel: [62734.570000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:26 popcorn kernel: [62734.570000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:03:26 popcorn kernel: [62734.570000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:03:28 popcorn kernel: [62736.575000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:28 popcorn kernel: [62736.575000] RTL871X: CurIGValue=55, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:03:28 popcorn kernel: [62736.575000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:03:28 popcorn kernel: [62736.575000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=46
+Jul 19 00:03:30 popcorn kernel: [62738.025000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:03:30 popcorn kernel: [62738.580000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:30 popcorn kernel: [62738.580000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:03:32 popcorn kernel: [62740.585000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:32 popcorn kernel: [62740.585000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:03:33 popcorn kernel: [62741.405000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:33 popcorn kernel: [62741.410000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:33 popcorn kernel: [62741.500000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=165 len=4
+Jul 19 00:03:33 popcorn kernel: [62741.505000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:03:34 popcorn kernel: [62742.590000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:34 popcorn kernel: [62742.590000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:03:36 popcorn kernel: [62744.595000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:36 popcorn kernel: [62744.595000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 50
+Jul 19 00:03:37 popcorn kernel: [62745.400000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:37 popcorn kernel: [62745.405000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:38 popcorn kernel: [62746.600000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:38 popcorn kernel: [62746.600000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:03:40 popcorn kernel: [62748.365000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:03:40 popcorn kernel: [62748.605000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:40 popcorn kernel: [62748.605000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:03:41 popcorn kernel: [62749.395000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:41 popcorn kernel: [62749.400000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:03:42 popcorn kernel: [62750.610000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:42 popcorn kernel: [62750.610000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 45
+Jul 19 00:03:44 popcorn kernel: [62752.615000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:44 popcorn kernel: [62752.615000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:03:45 popcorn kernel: [62753.390000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:45 popcorn kernel: [62753.390000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:46 popcorn kernel: [62754.620000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:46 popcorn kernel: [62754.620000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 47
+Jul 19 00:03:48 popcorn kernel: [62756.625000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:48 popcorn kernel: [62756.625000] RTL871X: CurIGValue=46, EntryMinUndecoratedSmoothedPWDB = 48
+Jul 19 00:03:49 popcorn kernel: [62757.385000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:49 popcorn kernel: [62757.385000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:03:50 popcorn kernel: [62758.310000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:03:50 popcorn kernel: [62758.315000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:03:50 popcorn kernel: [62758.315000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Jul 19 00:03:50 popcorn kernel: [62758.315000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=166 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=167 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=168 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=169 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=170 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.630000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:50 popcorn kernel: [62758.635000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=171 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.635000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=172 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.635000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=173 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=174 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=175 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=176 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=177 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=178 len=7
+Jul 19 00:03:50 popcorn kernel: [62758.640000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:50 popcorn kernel: [62758.710000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:03:52 popcorn kernel: [62760.635000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:52 popcorn kernel: [62760.635000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:03:52 popcorn kernel: [62760.635000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:03:53 popcorn kernel: [62761.375000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:53 popcorn kernel: [62761.380000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:03:54 popcorn kernel: [62762.605000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:03:54 popcorn kernel: [62762.640000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:54 popcorn kernel: [62762.640000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:03:54 popcorn kernel: [62762.640000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TRAFFIC_BUSY
+Jul 19 00:03:54 popcorn kernel: [62762.640000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:03:54 popcorn kernel: [62762.700000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=179 len=4
+Jul 19 00:03:55 popcorn kernel: [62763.110000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=180 len=4
+Jul 19 00:03:56 popcorn kernel: [62764.645000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:57 popcorn kernel: [62765.370000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:03:58 popcorn kernel: [62766.650000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:03:58 popcorn kernel: [62766.650000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:03:58 popcorn kernel: [62766.650000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:03:58 popcorn kernel: [62766.650000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=181 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.655000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:03:58 popcorn kernel: [62766.655000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=182 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.655000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=183 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.655000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:58 popcorn kernel: [62766.655000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=184 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.655000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=185 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.655000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:58 popcorn kernel: [62766.660000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=186 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.660000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=187 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.660000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=188 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=189 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=190 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=191 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=192 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=193 len=7
+Jul 19 00:03:58 popcorn kernel: [62766.665000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:03:59 popcorn kernel: [62767.010000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:03:59 popcorn kernel: [62767.520000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:03:59 popcorn kernel: [62767.525000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:03:59 popcorn kernel: [62767.525000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Jul 19 00:03:59 popcorn kernel: [62767.525000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:04:00 popcorn kernel: [62768.655000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:01 popcorn kernel: [62769.050000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:04:01 popcorn kernel: [62769.365000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:04:01 popcorn kernel: [62769.460000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=194 len=4
+Jul 19 00:04:02 popcorn kernel: [62770.660000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:02 popcorn kernel: [62770.660000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:04:02 popcorn kernel: [62770.660000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:04:04 popcorn kernel: [62772.665000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:04 popcorn kernel: [62772.665000] RTL871X: CurIGValue=57, EntryMinUndecoratedSmoothedPWDB = 46
+Jul 19 00:04:04 popcorn kernel: [62772.665000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:04:04 popcorn kernel: [62772.665000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=46
+Jul 19 00:04:05 popcorn kernel: [62773.360000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:04:05 popcorn kernel: [62773.360000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:04:05 popcorn kernel: [62773.360000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_TX_TRAFFIC_LEAVE
+Jul 19 00:04:05 popcorn kernel: [62773.360000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:04:06 popcorn kernel: [62774.670000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:06 popcorn kernel: [62774.670000] RTL871X: rtw_set_ps_mode(wlan0) Enter 802.11 power save - WIFI-TRAFFIC_IDLE
+Jul 19 00:04:06 popcorn kernel: [62774.670000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 2, SmartPS=2
+Jul 19 00:04:06 popcorn kernel: [62774.670000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=9 seq=195 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.675000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0xff
+Jul 19 00:04:06 popcorn kernel: [62774.675000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=196 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.675000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=197 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.675000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:04:06 popcorn kernel: [62774.675000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=198 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.675000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=199 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.675000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:04:06 popcorn kernel: [62774.680000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=200 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.680000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=201 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.680000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:04:06 popcorn kernel: [62774.680000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=202 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=203 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=204 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=205 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=206 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=11 seq=207 len=7
+Jul 19 00:04:06 popcorn kernel: [62774.685000] RTL871X: _btmpoper_cmd: C2H status = BT_STATUS_BT_OP_SUCCESS
+Jul 19 00:04:08 popcorn kernel: [62776.675000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:08 popcorn kernel: [62776.675000] RTL871X: CurIGValue=56, EntryMinUndecoratedSmoothedPWDB = 48
+Jul 19 00:04:08 popcorn kernel: [62776.675000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:04:08 popcorn kernel: [62776.675000] RTL871X: rtl8723b_hal_dm_in_lps, RSSI_Min=48
+Jul 19 00:04:09 popcorn kernel: [62777.350000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:04:09 popcorn kernel: [62777.355000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:04:10 popcorn kernel: [62778.680000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:10 popcorn kernel: [62778.680000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:04:11 popcorn kernel: [62779.395000] RTL871X: adaptive_early_32k(): bcn_cnt = 101
+Jul 19 00:04:12 popcorn kernel: [62780.685000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:12 popcorn kernel: [62780.685000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 51
+Jul 19 00:04:13 popcorn kernel: [62781.345000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:04:13 popcorn kernel: [62781.350000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0x3f
+Jul 19 00:04:13 popcorn kernel: [62781.440000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=208 len=4
+Jul 19 00:04:13 popcorn kernel: [62781.445000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=00, cpwm_now=80 , 0x100=0x3f
+Jul 19 00:04:14 popcorn kernel: [62782.690000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:14 popcorn kernel: [62782.690000] RTL871X: CurIGValue=48, EntryMinUndecoratedSmoothedPWDB = 49
+Jul 19 00:04:16 popcorn kernel: [62784.210000] RTL871X: rtw_set_rpwm: polling cpwm OK! poll_cnt=1, cpwm_orig=80, cpwm_now=00 , 0x100=0xff
+Jul 19 00:04:16 popcorn kernel: [62784.210000] RTL871X: rtw_set_ps_mode(wlan0) Leave 802.11 power save - WIFI-LPS_CTRL_RX_TRAFFIC_LEAVE
+Jul 19 00:04:16 popcorn kernel: [62784.210000] RTL871X: rtl8723b_set_FwPwrMode_cmd(): FW LPS mode = 0, SmartPS=2
+Jul 19 00:04:16 popcorn kernel: [62784.695000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:17 popcorn kernel: [62785.340000] RTL871X: rtl8723b_fill_default_txdesc(wlan0): SP Packet(0x0806) rate=0x0
+Jul 19 00:04:18 popcorn kernel: [62786.700000] RTL871X: IsBtDisabled=1, IsBtControlLps=0
+Jul 19 00:04:19 popcorn kernel: [62787.075000] RTL871X: rtl8723b_c2h_packet_handler: C2H, ID=12 seq=209 len=4
+Jul 19 00:04:20 popcorn systemd[1]: Stopped target Sound Card.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped target Timers.
+Jul 19 00:04:20 popcorn systemd[1]: e2scrub_all.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Jul 19 00:04:20 popcorn systemd[1]: logrotate.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily rotation of log files.
+Jul 19 00:04:20 popcorn systemd[1]: man-db.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily man-db regeneration.
+Jul 19 00:04:20 popcorn systemd[1]: systemd-rfkill.socket: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped target Host and Network Name Lookups.
+Jul 19 00:04:20 popcorn systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Jul 19 00:04:20 popcorn systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily apt upgrade and clean activities.
+Jul 19 00:04:20 popcorn systemd[1]: Stopping Session c2 of user root.

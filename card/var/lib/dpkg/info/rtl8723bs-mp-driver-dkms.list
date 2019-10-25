@@ -1,0 +1,13 @@
+/.
+/etc
+/etc/modprobe.d
+/etc/modprobe.d/rtl8723bs-mp-driver-dkms.conf
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/rtl8723bs-mp-driver-dkms
+/usr/share/doc/rtl8723bs-mp-driver-dkms/README.Debian
+/usr/share/doc/rtl8723bs-mp-driver-dkms/changelog.Debian.gz
+/usr/src
+/usr/src/rtl8723bs-mp-driver-4.4.2-17831.20160519-BTCOEX20151223-654a-ntc
+/usr/src/rtl8723bs-mp-driver-4.4.2-17831.20160519-BTCOEX20151223-654a-ntc/dkms.conf

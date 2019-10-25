@@ -1,0 +1,11 @@
+/.
+/etc
+/etc/apt
+/etc/apt/trusted.gpg.d
+/etc/apt/trusted.gpg.d/deb-multimedia-keyring.gpg
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/deb-multimedia-keyring
+/usr/share/doc/deb-multimedia-keyring/changelog.gz
+/usr/share/doc/deb-multimedia-keyring/copyright

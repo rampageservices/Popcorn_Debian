@@ -1,0 +1,11 @@
+555668f5bb180eae309d4aec672055fc  bin/setserial
+c5d08a3cc743da887663415270e909ce  lib/systemd/system/etc-setserial.service
+ac7fd3babc011b2c8d0c132fe9e53c65  lib/systemd/system/setserial.service
+aad23fe93d8e85d40d1781643e5a435b  usr/share/doc/setserial/README
+c222606f094a7956e88b562d3e86fb54  usr/share/doc/setserial/README.Debian.gz
+6653331d00e2695a447a7072b2a2b412  usr/share/doc/setserial/changelog.Debian.gz
+0e1d2a53aafbf54f152442d61b3d87a0  usr/share/doc/setserial/copyright
+ab79e1512740866fa59de81ff560f5e6  usr/share/doc/setserial/pcmcia.repair
+a030f3d94310ceb81200d7aee9691581  usr/share/doc/setserial/serial.conf
+79b77f1ef83661bdcf2a7910b981733c  usr/share/lintian/overrides/setserial
+b18466825ef06071d72dad566507298f  usr/share/man/man8/setserial.8.gz

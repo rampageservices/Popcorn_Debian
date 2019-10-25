@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/deb-multimedia-keyring-1024.gpg 2015.6.1 deb-multimedia-keyring -- "$@"
+# End automatically added section

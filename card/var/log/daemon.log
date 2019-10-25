@@ -1,0 +1,47 @@
+Jul 18 07:38:17 popcorn systemd[1]: logrotate.service: Succeeded.
+Jul 18 07:38:17 popcorn systemd[1]: Started Rotate log files.
+Jul 18 07:38:19 popcorn systemd[1]: apt-daily.service: Succeeded.
+Jul 18 07:38:19 popcorn systemd[1]: Started Daily apt download activities.
+Jul 18 07:38:19 popcorn systemd[1]: Starting Daily apt upgrade and clean activities...
+Jul 18 07:38:23 popcorn systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jul 18 07:38:23 popcorn systemd[1]: Started Daily apt upgrade and clean activities.
+Jul 18 07:38:24 popcorn systemd[1]: man-db.service: Succeeded.
+Jul 18 07:38:24 popcorn systemd[1]: Started Daily man-db regeneration.
+Jul 18 17:19:04 popcorn dhclient[576]: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 3
+Jul 18 17:19:04 popcorn dhclient[576]: DHCPOFFER of 192.168.1.12 from 192.168.1.1
+Jul 18 17:19:04 popcorn dhclient[576]: DHCPREQUEST for 192.168.1.12 on wlan0 to 255.255.255.255 port 67
+Jul 18 17:19:04 popcorn dhclient[576]: DHCPACK of 192.168.1.12 from 192.168.1.1
+Jul 18 17:19:04 popcorn dbus-daemon[236]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=247 comm="/usr/sbin/NetworkManager --no-daemon ")
+Jul 18 17:19:04 popcorn dhclient[576]: bound to 192.168.1.12 -- renewal in 42879 seconds.
+Jul 18 17:19:04 popcorn systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jul 18 17:19:04 popcorn dbus-daemon[236]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 18 17:19:04 popcorn systemd[1]: Started Network Manager Script Dispatcher Service.
+Jul 18 17:19:04 popcorn nm-dispatcher: req:1 'dhcp4-change' [wlan0]: new request (1 scripts)
+Jul 18 17:19:04 popcorn nm-dispatcher: req:1 'dhcp4-change' [wlan0]: start running ordered scripts...
+Jul 18 17:19:15 popcorn systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jul 18 21:34:43 popcorn systemd[1]: Starting Daily apt download activities...
+Jul 18 21:34:47 popcorn systemd[1]: apt-daily.service: Succeeded.
+Jul 18 21:34:47 popcorn systemd[1]: Started Daily apt download activities.
+Jul 19 00:00:28 popcorn systemd[1]: Starting Rotate log files...
+Jul 19 00:00:28 popcorn systemd[1]: Starting Daily man-db regeneration...
+Jul 19 00:00:29 popcorn systemd[1]: logrotate.service: Succeeded.
+Jul 19 00:00:29 popcorn systemd[1]: Started Rotate log files.
+Jul 19 00:00:30 popcorn systemd[1]: man-db.service: Succeeded.
+Jul 19 00:00:30 popcorn systemd[1]: Started Daily man-db regeneration.
+Jul 19 00:03:21 popcorn systemd[1]: Started Session c2 of user root.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped target Sound Card.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped target Timers.
+Jul 19 00:04:20 popcorn systemd[1]: e2scrub_all.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Periodic ext4 Online Metadata Check for All Filesystems.
+Jul 19 00:04:20 popcorn systemd[1]: logrotate.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily rotation of log files.
+Jul 19 00:04:20 popcorn systemd[1]: man-db.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily man-db regeneration.
+Jul 19 00:04:20 popcorn systemd[1]: systemd-rfkill.socket: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped target Host and Network Name Lookups.
+Jul 19 00:04:20 popcorn systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Jul 19 00:04:20 popcorn systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Jul 19 00:04:20 popcorn systemd[1]: Stopped Daily apt upgrade and clean activities.
+Jul 19 00:04:20 popcorn systemd[1]: Stopping Session c2 of user root.

@@ -1,0 +1,6 @@
+d08f2fe0f5a8439e59ccf0c7cb40353c  usr/lib/arm-linux-gnueabihf/libmbim-glib.so.4.4.0
+8cf02444333bb7d74555145dac3bf957  usr/share/doc/libmbim-glib4/NEWS.gz
+786a6774ecd585b563d8f9f21f1054e1  usr/share/doc/libmbim-glib4/changelog.Debian.gz
+bb818acbcdc77517001327c5865c6aae  usr/share/doc/libmbim-glib4/changelog.gz
+648ff027569ebf1f0728bf43e707d97a  usr/share/doc/libmbim-glib4/copyright
+8b8f185a1dfbca36417c1d41148a2544  usr/share/lintian/overrides/libmbim-glib4

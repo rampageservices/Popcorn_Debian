@@ -1,0 +1,21 @@
+logrotate state -- version 2
+"/var/log/syslog" 2019-7-19-0:0:28
+"/var/log/dpkg.log" 2019-2-15-0:0:10
+"/var/log/auth.log" 2019-7-18-7:38:16
+"/var/log/apt/term.log" 2019-2-15-0:0:10
+"/var/log/ppp-connect-errors" 2019-6-15-0:0:0
+"/var/log/apt/history.log" 2019-2-15-0:0:10
+"/var/log/alternatives.log" 2019-6-21-0:0:11
+"/var/log/mail.log" 2019-6-4-16:0:0
+"/var/log/debug" 2019-7-18-7:38:16
+"/var/log/kern.log" 2019-7-18-7:38:16
+"/var/log/daemon.log" 2019-7-18-7:38:16
+"/var/log/wtmp" 2019-2-15-0:0:28
+"/var/log/mail.warn" 2019-6-4-16:0:0
+"/var/log/btmp" 2019-7-18-7:38:16
+"/var/log/mail.err" 2019-6-4-16:0:0
+"/var/log/lpr.log" 2019-6-4-16:0:0
+"/var/log/user.log" 2019-7-18-7:38:16
+"/var/log/mail.info" 2019-6-4-16:0:0
+"/var/log/cron.log" 2019-6-4-16:0:0
+"/var/log/messages" 2019-7-18-7:38:16

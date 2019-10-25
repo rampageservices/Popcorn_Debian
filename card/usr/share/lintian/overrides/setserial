@@ -1,0 +1,3 @@
+# there is only one service needed for systemd
+#not used anymore: setserial: systemd-no-service-for-init-script etc-setserial
+#not used anymore: setserial: systemd-no-service-for-init-rcS-script etc-setserial
